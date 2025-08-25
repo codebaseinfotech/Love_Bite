@@ -76,7 +76,8 @@ class RegisterVC: UIViewController {
     }
     
     @IBAction func clickedContinue(_ sender: Any) {
-        
+        let vc = UploadPhotoVC()
+        self.push(vc)
     }
     
     private func setDefaultBorders() {
