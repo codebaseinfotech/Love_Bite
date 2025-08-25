@@ -51,6 +51,10 @@
 		887E23B02E5C647C0016E082 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23AD2E5C647C0016E082 /* ForgotPasswordVC.swift */; };
 		888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888C2CD42E5C6DD20047C8E5 /* RegisterVC.xib */; };
 		888C2CD62E5C6DD20047C8E5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C2CD32E5C6DD20047C8E5 /* RegisterVC.swift */; };
+		88981FF72E5C949400C33CAB /* UploadPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981FF32E5C949400C33CAB /* UploadPhotoVC.swift */; };
+		88981FF82E5C949400C33CAB /* TelluswhoyouareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981FEF2E5C949400C33CAB /* TelluswhoyouareVC.swift */; };
+		88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88981FF42E5C949400C33CAB /* UploadPhotoVC.xib */; };
+		88981FFA2E5C949400C33CAB /* TelluswhoyouareVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88981FF02E5C949400C33CAB /* TelluswhoyouareVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +104,10 @@
 		887E23AE2E5C647C0016E082 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
 		888C2CD32E5C6DD20047C8E5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		888C2CD42E5C6DD20047C8E5 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		88981FEF2E5C949400C33CAB /* TelluswhoyouareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelluswhoyouareVC.swift; sourceTree = "<group>"; };
+		88981FF02E5C949400C33CAB /* TelluswhoyouareVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TelluswhoyouareVC.xib; sourceTree = "<group>"; };
+		88981FF32E5C949400C33CAB /* UploadPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoVC.swift; sourceTree = "<group>"; };
+		88981FF42E5C949400C33CAB /* UploadPhotoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadPhotoVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +263,8 @@
 		887E23622E5C47540016E082 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				88981FF22E5C949400C33CAB /* Tell us who you are */,
+				88981FF62E5C949400C33CAB /* UploadPhoto */,
 				393F5A6F2E5C8042009643D0 /* Tabbar */,
 				887E23B12E5C6BAB0016E082 /* Register */,
 				887E23AB2E5C64550016E082 /* ForgotPassword */,
@@ -365,6 +375,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		88981FF12E5C949400C33CAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88981FEF2E5C949400C33CAB /* TelluswhoyouareVC.swift */,
+				88981FF02E5C949400C33CAB /* TelluswhoyouareVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88981FF22E5C949400C33CAB /* Tell us who you are */ = {
+			isa = PBXGroup;
+			children = (
+				88981FF12E5C949400C33CAB /* View */,
+			);
+			path = "Tell us who you are";
+			sourceTree = "<group>";
+		};
+		88981FF52E5C949400C33CAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88981FF32E5C949400C33CAB /* UploadPhotoVC.swift */,
+				88981FF42E5C949400C33CAB /* UploadPhotoVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88981FF62E5C949400C33CAB /* UploadPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				88981FF52E5C949400C33CAB /* View */,
+			);
+			path = UploadPhoto;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -437,6 +481,8 @@
 				393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */,
 				888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */,
 				39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */,
+				88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */,
+				88981FFA2E5C949400C33CAB /* TelluswhoyouareVC.xib in Resources */,
 				887E23AF2E5C647C0016E082 /* ForgotPasswordVC.xib in Resources */,
 				887E23602E5C44D00016E082 /* Main.storyboard in Resources */,
 			);
@@ -478,6 +524,8 @@
 				887E23912E5C53EF0016E082 /* PickerViewViewController.swift in Sources */,
 				39AD9A502E5C8FCF0034B1B9 /* GalleryListCVCell.swift in Sources */,
 				887E23922E5C53EF0016E082 /* AGDesignable.swift in Sources */,
+				88981FF72E5C949400C33CAB /* UploadPhotoVC.swift in Sources */,
+				88981FF82E5C949400C33CAB /* TelluswhoyouareVC.swift in Sources */,
 				887E23932E5C53EF0016E082 /* Int+Timepiece.swift in Sources */,
 				887E23682E5C4F0A0016E082 /* LoginVC.swift in Sources */,
 			);
