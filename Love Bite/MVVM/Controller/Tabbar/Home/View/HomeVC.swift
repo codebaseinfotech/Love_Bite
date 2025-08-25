@@ -67,6 +67,8 @@ class HomeVC: UIViewController {
     @IBAction func tappedChat(_ sender: Any) {
     }
     @IBAction func tappedViewMore(_ sender: Any) {
+        let vc = Active24HVC()
+        self.push(vc)
     }
     
      

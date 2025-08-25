@@ -11,6 +11,9 @@
 		393F5A6B2E5C7F75009643D0 /* UserListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F5A632E5C7F75009643D0 /* UserListCVCell.swift */; };
 		393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A642E5C7F75009643D0 /* UserListCVCell.xib */; };
 		393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A672E5C7F75009643D0 /* HomeVC.xib */; };
+		39B2444B2E5C825400B0138F /* Active24HVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B244492E5C825400B0138F /* Active24HVC.swift */; };
+		39B2444C2E5C825400B0138F /* Active24HVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B2444A2E5C825400B0138F /* Active24HVC.xib */; };
+		39B2444E2E5C82BB00B0138F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B2444D2E5C82BB00B0138F /* UIViewController+Extension.swift */; };
 		887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23502E5C44D00016E082 /* AppDelegate.swift */; };
 		887E235C2E5C44D00016E082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23582E5C44D00016E082 /* ViewController.swift */; };
 		887E235D2E5C44D00016E082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887E23512E5C44D00016E082 /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 		393F5A642E5C7F75009643D0 /* UserListCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCVCell.xib; sourceTree = "<group>"; };
 		393F5A662E5C7F75009643D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		393F5A672E5C7F75009643D0 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		39B244492E5C825400B0138F /* Active24HVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Active24HVC.swift; sourceTree = "<group>"; };
+		39B2444A2E5C825400B0138F /* Active24HVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Active24HVC.xib; sourceTree = "<group>"; };
+		39B2444D2E5C82BB00B0138F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		887E23382E5C44C50016E082 /* Love Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887E23502E5C44D00016E082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887E23512E5C44D00016E082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,10 +122,36 @@
 		393F5A692E5C7F75009643D0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				39B244462E5C823800B0138F /* SubVC */,
 				393F5A652E5C7F75009643D0 /* Cell */,
 				393F5A682E5C7F75009643D0 /* View */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		393F5A6F2E5C8042009643D0 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				393F5A692E5C7F75009643D0 /* Home */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		39B244462E5C823800B0138F /* SubVC */ = {
+			isa = PBXGroup;
+			children = (
+				39B244482E5C824800B0138F /* Active24H */,
+			);
+			path = SubVC;
+			sourceTree = "<group>";
+		};
+		39B244482E5C824800B0138F /* Active24H */ = {
+			isa = PBXGroup;
+			children = (
+				39B244492E5C825400B0138F /* Active24HVC.swift */,
+				39B2444A2E5C825400B0138F /* Active24HVC.xib */,
+			);
+			path = Active24H;
 			sourceTree = "<group>";
 		};
 		887E232F2E5C44C50016E082 = {
@@ -165,7 +197,7 @@
 		887E23622E5C47540016E082 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				393F5A692E5C7F75009643D0 /* Home */,
+				393F5A6F2E5C8042009643D0 /* Tabbar */,
 				887E23B12E5C6BAB0016E082 /* Register */,
 				887E23AB2E5C64550016E082 /* ForgotPassword */,
 				887E23632E5C48C70016E082 /* Login */,
@@ -232,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				887E23A02E5C55970016E082 /* UIView+Extension.swift */,
+				39B2444D2E5C82BB00B0138F /* UIViewController+Extension.swift */,
 				887E23A12E5C55970016E082 /* UIColor+Extention.swift */,
 				887E23A22E5C55970016E082 /* UIFont+Extension.swift */,
 				887E23A32E5C55970016E082 /* UIImageView+Extension.swift */,
@@ -338,6 +371,7 @@
 				887E235D2E5C44D00016E082 /* Assets.xcassets in Resources */,
 				887E23942E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard in Resources */,
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
+				39B2444C2E5C825400B0138F /* Active24HVC.xib in Resources */,
 				887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */,
 				393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */,
 				393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */,
@@ -358,6 +392,7 @@
 				887E23A72E5C55970016E082 /* UIView+Extension.swift in Sources */,
 				887E23A82E5C55970016E082 /* UIColor+Extention.swift in Sources */,
 				887E23A92E5C55970016E082 /* UIFont+Extension.swift in Sources */,
+				39B2444E2E5C82BB00B0138F /* UIViewController+Extension.swift in Sources */,
 				887E23AA2E5C55970016E082 /* UIImageView+Extension.swift in Sources */,
 				887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */,
 				393F5A6A2E5C7F75009643D0 /* HomeVC.swift in Sources */,
@@ -369,6 +404,7 @@
 				887E23862E5C53EF0016E082 /* AppUtilites.swift in Sources */,
 				887E23872E5C53EF0016E082 /* String+Timepiece.swift in Sources */,
 				887E23882E5C53EF0016E082 /* AppConstants.swift in Sources */,
+				39B2444B2E5C825400B0138F /* Active24HVC.swift in Sources */,
 				887E23892E5C53EF0016E082 /* WWCalendarTimeSelector.swift in Sources */,
 				887E238B2E5C53EF0016E082 /* VideoPicker.swift in Sources */,
 				887E238C2E5C53EF0016E082 /* ImagePicker.swift in Sources */,
