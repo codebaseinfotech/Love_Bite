@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393F5A6A2E5C7F75009643D0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F5A662E5C7F75009643D0 /* HomeVC.swift */; };
+		393F5A6B2E5C7F75009643D0 /* UserListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F5A632E5C7F75009643D0 /* UserListCVCell.swift */; };
+		393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A642E5C7F75009643D0 /* UserListCVCell.xib */; };
+		393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A672E5C7F75009643D0 /* HomeVC.xib */; };
 		887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23502E5C44D00016E082 /* AppDelegate.swift */; };
 		887E235C2E5C44D00016E082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23582E5C44D00016E082 /* ViewController.swift */; };
 		887E235D2E5C44D00016E082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887E23512E5C44D00016E082 /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		393F5A632E5C7F75009643D0 /* UserListCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCVCell.swift; sourceTree = "<group>"; };
+		393F5A642E5C7F75009643D0 /* UserListCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCVCell.xib; sourceTree = "<group>"; };
+		393F5A662E5C7F75009643D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		393F5A672E5C7F75009643D0 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		887E23382E5C44C50016E082 /* Love Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887E23502E5C44D00016E082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887E23512E5C44D00016E082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		393F5A652E5C7F75009643D0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				393F5A632E5C7F75009643D0 /* UserListCVCell.swift */,
+				393F5A642E5C7F75009643D0 /* UserListCVCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		393F5A682E5C7F75009643D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				393F5A662E5C7F75009643D0 /* HomeVC.swift */,
+				393F5A672E5C7F75009643D0 /* HomeVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		393F5A692E5C7F75009643D0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				393F5A652E5C7F75009643D0 /* Cell */,
+				393F5A682E5C7F75009643D0 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		887E232F2E5C44C50016E082 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +165,7 @@
 		887E23622E5C47540016E082 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				393F5A692E5C7F75009643D0 /* Home */,
 				887E23B12E5C6BAB0016E082 /* Register */,
 				887E23AB2E5C64550016E082 /* ForgotPassword */,
 				887E23632E5C48C70016E082 /* Login */,
@@ -303,6 +339,8 @@
 				887E23942E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard in Resources */,
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
 				887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */,
+				393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */,
+				393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */,
 				888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */,
 				887E23AF2E5C647C0016E082 /* ForgotPasswordVC.xib in Resources */,
 				887E23602E5C44D00016E082 /* Main.storyboard in Resources */,
@@ -322,6 +360,8 @@
 				887E23A92E5C55970016E082 /* UIFont+Extension.swift in Sources */,
 				887E23AA2E5C55970016E082 /* UIImageView+Extension.swift in Sources */,
 				887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */,
+				393F5A6A2E5C7F75009643D0 /* HomeVC.swift in Sources */,
+				393F5A6B2E5C7F75009643D0 /* UserListCVCell.swift in Sources */,
 				887E23B02E5C647C0016E082 /* ForgotPasswordVC.swift in Sources */,
 				887E235C2E5C44D00016E082 /* ViewController.swift in Sources */,
 				887E23852E5C53EF0016E082 /* Duration.swift in Sources */,
