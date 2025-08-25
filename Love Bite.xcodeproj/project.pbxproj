@@ -34,6 +34,10 @@
 		887E23A82E5C55970016E082 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23A12E5C55970016E082 /* UIColor+Extention.swift */; };
 		887E23A92E5C55970016E082 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23A22E5C55970016E082 /* UIFont+Extension.swift */; };
 		887E23AA2E5C55970016E082 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23A32E5C55970016E082 /* UIImageView+Extension.swift */; };
+		887E23AF2E5C647C0016E082 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887E23AE2E5C647C0016E082 /* ForgotPasswordVC.xib */; };
+		887E23B02E5C647C0016E082 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23AD2E5C647C0016E082 /* ForgotPasswordVC.swift */; };
+		888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888C2CD42E5C6DD20047C8E5 /* RegisterVC.xib */; };
+		888C2CD62E5C6DD20047C8E5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C2CD32E5C6DD20047C8E5 /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,10 @@
 		887E23A22E5C55970016E082 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		887E23A32E5C55970016E082 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		887E23A42E5C55970016E082 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		887E23AD2E5C647C0016E082 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		887E23AE2E5C647C0016E082 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		888C2CD32E5C6DD20047C8E5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		888C2CD42E5C6DD20047C8E5 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,8 @@
 		887E23622E5C47540016E082 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				887E23B12E5C6BAB0016E082 /* Register */,
+				887E23AB2E5C64550016E082 /* ForgotPassword */,
 				887E23632E5C48C70016E082 /* Login */,
 			);
 			path = Controller;
@@ -194,6 +204,40 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		887E23AB2E5C64550016E082 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				887E23AC2E5C64620016E082 /* View */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		887E23AC2E5C64620016E082 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				887E23AD2E5C647C0016E082 /* ForgotPasswordVC.swift */,
+				887E23AE2E5C647C0016E082 /* ForgotPasswordVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		887E23B12E5C6BAB0016E082 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				887E23B22E5C6BDC0016E082 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		887E23B22E5C6BDC0016E082 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				888C2CD32E5C6DD20047C8E5 /* RegisterVC.swift */,
+				888C2CD42E5C6DD20047C8E5 /* RegisterVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -259,6 +303,8 @@
 				887E23942E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard in Resources */,
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
 				887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */,
+				888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */,
+				887E23AF2E5C647C0016E082 /* ForgotPasswordVC.xib in Resources */,
 				887E23602E5C44D00016E082 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,8 +322,10 @@
 				887E23A92E5C55970016E082 /* UIFont+Extension.swift in Sources */,
 				887E23AA2E5C55970016E082 /* UIImageView+Extension.swift in Sources */,
 				887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */,
+				887E23B02E5C647C0016E082 /* ForgotPasswordVC.swift in Sources */,
 				887E235C2E5C44D00016E082 /* ViewController.swift in Sources */,
 				887E23852E5C53EF0016E082 /* Duration.swift in Sources */,
+				888C2CD62E5C6DD20047C8E5 /* RegisterVC.swift in Sources */,
 				887E23862E5C53EF0016E082 /* AppUtilites.swift in Sources */,
 				887E23872E5C53EF0016E082 /* String+Timepiece.swift in Sources */,
 				887E23882E5C53EF0016E082 /* AppConstants.swift in Sources */,
