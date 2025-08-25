@@ -11,9 +11,15 @@
 		393F5A6B2E5C7F75009643D0 /* UserListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F5A632E5C7F75009643D0 /* UserListCVCell.swift */; };
 		393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A642E5C7F75009643D0 /* UserListCVCell.xib */; };
 		393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A672E5C7F75009643D0 /* HomeVC.xib */; };
+		39AD9A4F2E5C8FCF0034B1B9 /* GalleryListCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39AD9A4E2E5C8FCF0034B1B9 /* GalleryListCVCell.xib */; };
+		39AD9A502E5C8FCF0034B1B9 /* GalleryListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD9A4D2E5C8FCF0034B1B9 /* GalleryListCVCell.swift */; };
 		39B2444B2E5C825400B0138F /* Active24HVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B244492E5C825400B0138F /* Active24HVC.swift */; };
 		39B2444C2E5C825400B0138F /* Active24HVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B2444A2E5C825400B0138F /* Active24HVC.xib */; };
 		39B2444E2E5C82BB00B0138F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B2444D2E5C82BB00B0138F /* UIViewController+Extension.swift */; };
+		39B244552E5C849D00B0138F /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B244532E5C849D00B0138F /* FavoritesVC.swift */; };
+		39B244562E5C849D00B0138F /* FavoritesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B244542E5C849D00B0138F /* FavoritesVC.xib */; };
+		39B2445B2E5C884300B0138F /* ProfileDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B244592E5C884300B0138F /* ProfileDetailsVC.swift */; };
+		39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */; };
 		887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23502E5C44D00016E082 /* AppDelegate.swift */; };
 		887E235C2E5C44D00016E082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23582E5C44D00016E082 /* ViewController.swift */; };
 		887E235D2E5C44D00016E082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887E23512E5C44D00016E082 /* Assets.xcassets */; };
@@ -52,9 +58,15 @@
 		393F5A642E5C7F75009643D0 /* UserListCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCVCell.xib; sourceTree = "<group>"; };
 		393F5A662E5C7F75009643D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		393F5A672E5C7F75009643D0 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		39AD9A4D2E5C8FCF0034B1B9 /* GalleryListCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryListCVCell.swift; sourceTree = "<group>"; };
+		39AD9A4E2E5C8FCF0034B1B9 /* GalleryListCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryListCVCell.xib; sourceTree = "<group>"; };
 		39B244492E5C825400B0138F /* Active24HVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Active24HVC.swift; sourceTree = "<group>"; };
 		39B2444A2E5C825400B0138F /* Active24HVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Active24HVC.xib; sourceTree = "<group>"; };
 		39B2444D2E5C82BB00B0138F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		39B244532E5C849D00B0138F /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		39B244542E5C849D00B0138F /* FavoritesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesVC.xib; sourceTree = "<group>"; };
+		39B244592E5C884300B0138F /* ProfileDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsVC.swift; sourceTree = "<group>"; };
+		39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileDetailsVC.xib; sourceTree = "<group>"; };
 		887E23382E5C44C50016E082 /* Love Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887E23502E5C44D00016E082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887E23512E5C44D00016E082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,14 +144,33 @@
 		393F5A6F2E5C8042009643D0 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				39B244502E5C849100B0138F /* Favorites */,
 				393F5A692E5C7F75009643D0 /* Home */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
+		39AD9A4A2E5C8FAC0034B1B9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				39AD9A4C2E5C8FC00034B1B9 /* GalleryListCVCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		39AD9A4C2E5C8FC00034B1B9 /* GalleryListCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				39AD9A4D2E5C8FCF0034B1B9 /* GalleryListCVCell.swift */,
+				39AD9A4E2E5C8FCF0034B1B9 /* GalleryListCVCell.xib */,
+			);
+			path = GalleryListCVCell;
+			sourceTree = "<group>";
+		};
 		39B244462E5C823800B0138F /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
+				39B244582E5C883A00B0138F /* ProfileDetails */,
 				39B244482E5C824800B0138F /* Active24H */,
 			);
 			path = SubVC;
@@ -152,6 +183,33 @@
 				39B2444A2E5C825400B0138F /* Active24HVC.xib */,
 			);
 			path = Active24H;
+			sourceTree = "<group>";
+		};
+		39B244502E5C849100B0138F /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				39B244522E5C849500B0138F /* View */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		39B244522E5C849500B0138F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39B244532E5C849D00B0138F /* FavoritesVC.swift */,
+				39B244542E5C849D00B0138F /* FavoritesVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39B244582E5C883A00B0138F /* ProfileDetails */ = {
+			isa = PBXGroup;
+			children = (
+				39AD9A4A2E5C8FAC0034B1B9 /* Cell */,
+				39B244592E5C884300B0138F /* ProfileDetailsVC.swift */,
+				39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */,
+			);
+			path = ProfileDetails;
 			sourceTree = "<group>";
 		};
 		887E232F2E5C44C50016E082 = {
@@ -373,9 +431,12 @@
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
 				39B2444C2E5C825400B0138F /* Active24HVC.xib in Resources */,
 				887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */,
+				39AD9A4F2E5C8FCF0034B1B9 /* GalleryListCVCell.xib in Resources */,
+				39B244562E5C849D00B0138F /* FavoritesVC.xib in Resources */,
 				393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */,
 				393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */,
 				888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */,
+				39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */,
 				887E23AF2E5C647C0016E082 /* ForgotPasswordVC.xib in Resources */,
 				887E23602E5C44D00016E082 /* Main.storyboard in Resources */,
 			);
@@ -399,6 +460,7 @@
 				393F5A6B2E5C7F75009643D0 /* UserListCVCell.swift in Sources */,
 				887E23B02E5C647C0016E082 /* ForgotPasswordVC.swift in Sources */,
 				887E235C2E5C44D00016E082 /* ViewController.swift in Sources */,
+				39B2445B2E5C884300B0138F /* ProfileDetailsVC.swift in Sources */,
 				887E23852E5C53EF0016E082 /* Duration.swift in Sources */,
 				888C2CD62E5C6DD20047C8E5 /* RegisterVC.swift in Sources */,
 				887E23862E5C53EF0016E082 /* AppUtilites.swift in Sources */,
@@ -410,9 +472,11 @@
 				887E238C2E5C53EF0016E082 /* ImagePicker.swift in Sources */,
 				887E238D2E5C53EF0016E082 /* NSDate+Timepiece.swift in Sources */,
 				887E238E2E5C53EF0016E082 /* NSDateComponents+Timepiece.swift in Sources */,
+				39B244552E5C849D00B0138F /* FavoritesVC.swift in Sources */,
 				887E238F2E5C53EF0016E082 /* Extentions.swift in Sources */,
 				887E23902E5C53EF0016E082 /* NSCalendar+Timepiece.swift in Sources */,
 				887E23912E5C53EF0016E082 /* PickerViewViewController.swift in Sources */,
+				39AD9A502E5C8FCF0034B1B9 /* GalleryListCVCell.swift in Sources */,
 				887E23922E5C53EF0016E082 /* AGDesignable.swift in Sources */,
 				887E23932E5C53EF0016E082 /* Int+Timepiece.swift in Sources */,
 				887E23682E5C4F0A0016E082 /* LoginVC.swift in Sources */,

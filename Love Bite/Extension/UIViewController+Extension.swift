@@ -16,4 +16,20 @@ extension UIViewController {
         self.navigationController?.popViewController(animated: animated)
     }
     
+    func goDismiss(animated: Bool = true) {
+        self.dismiss(animated: animated)
+    }
+    
+    func changeTab(tab: Int = 1) {
+        var vc = UIViewController()
+        
+        if tab == 1 {
+            vc = HomeVC()
+        } else if tab == 2 {
+            vc = FavoritesVC()
+        }
+        
+        self.push(vc, animated: false)
+    }
+    
 }

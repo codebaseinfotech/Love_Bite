@@ -71,7 +71,14 @@ class HomeVC: UIViewController {
         self.push(vc)
     }
     
-     
+    @IBAction func tappedTFavourite(_ sender: Any) {
+        self.changeTab(tab: 2)
+    }
+    @IBAction func tappedTWallet(_ sender: Any) {
+    }
+    @IBAction func tappedTProfile(_ sender: Any) {
+    }
+    
 
 }
 
@@ -105,5 +112,9 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
         }
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = ProfileDetailsVC()
+        self.push(vc)
+    }
     
 }
