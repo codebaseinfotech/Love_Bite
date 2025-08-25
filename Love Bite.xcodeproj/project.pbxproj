@@ -14,6 +14,26 @@
 		887E23602E5C44D00016E082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887E23562E5C44D00016E082 /* Main.storyboard */; };
 		887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887E23662E5C4F0A0016E082 /* LoginVC.xib */; };
 		887E23682E5C4F0A0016E082 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23652E5C4F0A0016E082 /* LoginVC.swift */; };
+		887E23852E5C53EF0016E082 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E237B2E5C53EF0016E082 /* Duration.swift */; };
+		887E23862E5C53EF0016E082 /* AppUtilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23812E5C53EF0016E082 /* AppUtilites.swift */; };
+		887E23872E5C53EF0016E082 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E237A2E5C53EF0016E082 /* String+Timepiece.swift */; };
+		887E23882E5C53EF0016E082 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23832E5C53EF0016E082 /* AppConstants.swift */; };
+		887E23892E5C53EF0016E082 /* WWCalendarTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23782E5C53EF0016E082 /* WWCalendarTimeSelector.swift */; };
+		887E238B2E5C53EF0016E082 /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E237F2E5C53EF0016E082 /* VideoPicker.swift */; };
+		887E238C2E5C53EF0016E082 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E237D2E5C53EF0016E082 /* ImagePicker.swift */; };
+		887E238D2E5C53EF0016E082 /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23792E5C53EF0016E082 /* NSDate+Timepiece.swift */; };
+		887E238E2E5C53EF0016E082 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23742E5C53EF0016E082 /* NSDateComponents+Timepiece.swift */; };
+		887E238F2E5C53EF0016E082 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23732E5C53EF0016E082 /* Extentions.swift */; };
+		887E23902E5C53EF0016E082 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23752E5C53EF0016E082 /* NSCalendar+Timepiece.swift */; };
+		887E23912E5C53EF0016E082 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E237E2E5C53EF0016E082 /* PickerViewViewController.swift */; };
+		887E23922E5C53EF0016E082 /* AGDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23822E5C53EF0016E082 /* AGDesignable.swift */; };
+		887E23932E5C53EF0016E082 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23762E5C53EF0016E082 /* Int+Timepiece.swift */; };
+		887E23942E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887E23772E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard */; };
+		887E23A62E5C55970016E082 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23A42E5C55970016E082 /* String+Extension.swift */; };
+		887E23A72E5C55970016E082 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23A02E5C55970016E082 /* UIView+Extension.swift */; };
+		887E23A82E5C55970016E082 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23A12E5C55970016E082 /* UIColor+Extention.swift */; };
+		887E23A92E5C55970016E082 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23A22E5C55970016E082 /* UIFont+Extension.swift */; };
+		887E23AA2E5C55970016E082 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23A32E5C55970016E082 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +46,26 @@
 		887E23582E5C44D00016E082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		887E23652E5C4F0A0016E082 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		887E23662E5C4F0A0016E082 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		887E23732E5C53EF0016E082 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		887E23742E5C53EF0016E082 /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		887E23752E5C53EF0016E082 /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		887E23762E5C53EF0016E082 /* Int+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
+		887E23772E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WWCalendarTimeSelector.storyboard; sourceTree = "<group>"; };
+		887E23782E5C53EF0016E082 /* WWCalendarTimeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWCalendarTimeSelector.swift; sourceTree = "<group>"; };
+		887E23792E5C53EF0016E082 /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		887E237A2E5C53EF0016E082 /* String+Timepiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
+		887E237B2E5C53EF0016E082 /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		887E237D2E5C53EF0016E082 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		887E237E2E5C53EF0016E082 /* PickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		887E237F2E5C53EF0016E082 /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		887E23812E5C53EF0016E082 /* AppUtilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtilites.swift; sourceTree = "<group>"; };
+		887E23822E5C53EF0016E082 /* AGDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGDesignable.swift; sourceTree = "<group>"; };
+		887E23832E5C53EF0016E082 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		887E23A02E5C55970016E082 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		887E23A12E5C55970016E082 /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
+		887E23A22E5C55970016E082 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		887E23A32E5C55970016E082 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		887E23A42E5C55970016E082 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +100,8 @@
 			children = (
 				887E23612E5C473F0016E082 /* MVVM */,
 				887E23502E5C44D00016E082 /* AppDelegate.swift */,
+				887E23A52E5C55970016E082 /* Extension */,
+				887E23842E5C53EF0016E082 /* Helper */,
 				887E23512E5C44D00016E082 /* Assets.xcassets */,
 				887E23522E5C44D00016E082 /* Info.plist */,
 				887E23542E5C44D00016E082 /* LaunchScreen.storyboard */,
@@ -100,6 +142,56 @@
 				887E23662E5C4F0A0016E082 /* LoginVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		887E237C2E5C53EF0016E082 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				887E23732E5C53EF0016E082 /* Extentions.swift */,
+				887E23742E5C53EF0016E082 /* NSDateComponents+Timepiece.swift */,
+				887E23752E5C53EF0016E082 /* NSCalendar+Timepiece.swift */,
+				887E23762E5C53EF0016E082 /* Int+Timepiece.swift */,
+				887E23772E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard */,
+				887E23782E5C53EF0016E082 /* WWCalendarTimeSelector.swift */,
+				887E23792E5C53EF0016E082 /* NSDate+Timepiece.swift */,
+				887E237A2E5C53EF0016E082 /* String+Timepiece.swift */,
+				887E237B2E5C53EF0016E082 /* Duration.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		887E23802E5C53EF0016E082 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				887E237C2E5C53EF0016E082 /* Sources */,
+				887E237D2E5C53EF0016E082 /* ImagePicker.swift */,
+				887E237E2E5C53EF0016E082 /* PickerViewViewController.swift */,
+				887E237F2E5C53EF0016E082 /* VideoPicker.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		887E23842E5C53EF0016E082 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				887E23802E5C53EF0016E082 /* PickerView */,
+				887E23812E5C53EF0016E082 /* AppUtilites.swift */,
+				887E23822E5C53EF0016E082 /* AGDesignable.swift */,
+				887E23832E5C53EF0016E082 /* AppConstants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		887E23A52E5C55970016E082 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				887E23A02E5C55970016E082 /* UIView+Extension.swift */,
+				887E23A12E5C55970016E082 /* UIColor+Extention.swift */,
+				887E23A22E5C55970016E082 /* UIFont+Extension.swift */,
+				887E23A32E5C55970016E082 /* UIImageView+Extension.swift */,
+				887E23A42E5C55970016E082 /* String+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				887E235D2E5C44D00016E082 /* Assets.xcassets in Resources */,
+				887E23942E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard in Resources */,
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
 				887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */,
 				887E23602E5C44D00016E082 /* Main.storyboard in Resources */,
@@ -177,8 +270,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887E23A62E5C55970016E082 /* String+Extension.swift in Sources */,
+				887E23A72E5C55970016E082 /* UIView+Extension.swift in Sources */,
+				887E23A82E5C55970016E082 /* UIColor+Extention.swift in Sources */,
+				887E23A92E5C55970016E082 /* UIFont+Extension.swift in Sources */,
+				887E23AA2E5C55970016E082 /* UIImageView+Extension.swift in Sources */,
 				887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */,
 				887E235C2E5C44D00016E082 /* ViewController.swift in Sources */,
+				887E23852E5C53EF0016E082 /* Duration.swift in Sources */,
+				887E23862E5C53EF0016E082 /* AppUtilites.swift in Sources */,
+				887E23872E5C53EF0016E082 /* String+Timepiece.swift in Sources */,
+				887E23882E5C53EF0016E082 /* AppConstants.swift in Sources */,
+				887E23892E5C53EF0016E082 /* WWCalendarTimeSelector.swift in Sources */,
+				887E238B2E5C53EF0016E082 /* VideoPicker.swift in Sources */,
+				887E238C2E5C53EF0016E082 /* ImagePicker.swift in Sources */,
+				887E238D2E5C53EF0016E082 /* NSDate+Timepiece.swift in Sources */,
+				887E238E2E5C53EF0016E082 /* NSDateComponents+Timepiece.swift in Sources */,
+				887E238F2E5C53EF0016E082 /* Extentions.swift in Sources */,
+				887E23902E5C53EF0016E082 /* NSCalendar+Timepiece.swift in Sources */,
+				887E23912E5C53EF0016E082 /* PickerViewViewController.swift in Sources */,
+				887E23922E5C53EF0016E082 /* AGDesignable.swift in Sources */,
+				887E23932E5C53EF0016E082 /* Int+Timepiece.swift in Sources */,
 				887E23682E5C4F0A0016E082 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
