@@ -16,5 +16,8 @@ class TelluswhoyouareVC: UIViewController {
     }
 
 
-
+    @IBAction func clickedBack(_ sender: Any) {
+        self.goBack()
+    }
+    
 }
