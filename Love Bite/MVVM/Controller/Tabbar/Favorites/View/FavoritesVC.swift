@@ -52,6 +52,7 @@ class FavoritesVC: UIViewController {
         self.changeTab(tab: 1)
     }
     @IBAction func tappedWallet(_ sender: Any) {
+        self.changeTab(tab: 3)
     }
     @IBAction func tappedTProfile(_ sender: Any) {
     }
@@ -77,5 +78,9 @@ extension FavoritesVC: UICollectionViewDelegate, UICollectionViewDataSource, UIC
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = ProfileDetailsVC()
+        self.push(vc)
+    }
     
 }

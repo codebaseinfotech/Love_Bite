@@ -75,6 +75,7 @@ class HomeVC: UIViewController {
         self.changeTab(tab: 2)
     }
     @IBAction func tappedTWallet(_ sender: Any) {
+        self.changeTab(tab: 3)
     }
     @IBAction func tappedTProfile(_ sender: Any) {
     }

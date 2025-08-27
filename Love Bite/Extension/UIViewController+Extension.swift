@@ -27,6 +27,8 @@ extension UIViewController {
             vc = HomeVC()
         } else if tab == 2 {
             vc = FavoritesVC()
+        } else if tab == 3 {
+            vc = WalletVC()
         }
         
         self.push(vc, animated: false)
