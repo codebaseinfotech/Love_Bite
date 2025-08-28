@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LoveUserListTVCell" customModule="Love_Bite" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fpG-CB-GFO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UwI-fP-ara">
+                                <rect key="frame" x="16" y="10" width="60" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_dummy" translatesAutoresizingMaskIntoConstraints="NO" id="2AJ-ln-X6s">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="j9A-UK-53c"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="43h-Tc-prt"/>
+                                    <constraint firstAttribute="height" constant="60" id="uou-iV-x1q"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tpz-WD-zKZ">
+                                <rect key="frame" x="92" y="15" width="212" height="50"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xXH-rn-Z3y">
+                                        <rect key="frame" x="0.0" y="0.0" width="212" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="olivia@johnson_21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xWe-1c-VvP">
+                                                <rect key="frame" x="0.0" y="0.0" width="212" height="26.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="19"/>
+                                                <color key="textColor" name="text_dark_color"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscribed on Aug 19, 2025" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WO7-rb-lsg">
+                                                <rect key="frame" x="0.0" y="34.666666666666664" width="212" height="15.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                <color key="textColor" name="text_color"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOn-wc-ii7">
+                                        <rect key="frame" x="212" y="0.0" width="63" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5y-7i-y8w">
+                                                <rect key="frame" x="5" y="10" width="53" height="30"/>
+                                                <color key="backgroundColor" name="line_color_home"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="yR3-Ue-XDI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Unblock">
+                                                    <color key="titleColor" name="text_color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusValue">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tappedBlocked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="z7I-QV-sZ2"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="63" id="2MR-IA-6rF"/>
+                                            <constraint firstItem="G5y-7i-y8w" firstAttribute="centerY" secondItem="AOn-wc-ii7" secondAttribute="centerY" id="BdB-kc-Umy"/>
+                                            <constraint firstAttribute="trailing" secondItem="G5y-7i-y8w" secondAttribute="trailing" constant="5" id="NA7-Kq-On6"/>
+                                            <constraint firstItem="G5y-7i-y8w" firstAttribute="leading" secondItem="AOn-wc-ii7" secondAttribute="leading" constant="5" id="fny-DQ-gr7"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tpz-WD-zKZ" firstAttribute="centerY" secondItem="fpG-CB-GFO" secondAttribute="centerY" id="EA7-68-wCe"/>
+                            <constraint firstItem="tpz-WD-zKZ" firstAttribute="leading" secondItem="UwI-fP-ara" secondAttribute="trailing" constant="16" id="Yp6-mk-mmp"/>
+                            <constraint firstAttribute="trailing" secondItem="tpz-WD-zKZ" secondAttribute="trailing" constant="16" id="p7F-DL-lBt"/>
+                            <constraint firstItem="UwI-fP-ara" firstAttribute="leading" secondItem="fpG-CB-GFO" secondAttribute="leading" constant="16" id="te4-Qm-0kc"/>
+                            <constraint firstItem="UwI-fP-ara" firstAttribute="centerY" secondItem="fpG-CB-GFO" secondAttribute="centerY" id="yzs-lg-d0V"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="fpG-CB-GFO" secondAttribute="trailing" id="NQ2-dr-Z57"/>
+                    <constraint firstItem="fpG-CB-GFO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="X11-wW-BnA"/>
+                    <constraint firstItem="fpG-CB-GFO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bnT-Rs-iKU"/>
+                    <constraint firstAttribute="bottom" secondItem="fpG-CB-GFO" secondAttribute="bottom" id="fjO-nG-jGm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnBlocked" destination="G5y-7i-y8w" id="Igh-QV-S7a"/>
+                <outlet property="imgPic" destination="2AJ-ln-X6s" id="mhC-mk-gBp"/>
+                <outlet property="lblDate" destination="WO7-rb-lsg" id="b1h-iz-6si"/>
+                <outlet property="lblName" destination="xWe-1c-VvP" id="aMu-bx-Ie6"/>
+                <outlet property="viewBlock" destination="AOn-wc-ii7" id="X77-pk-CO3"/>
+            </connections>
+            <point key="canvasLocation" x="131" y="-32"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_dummy" width="320" height="320"/>
+        <namedColor name="line_color_home">
+            <color red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="text_color">
+            <color red="0.40000000000000002" green="0.4392156862745098" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="text_dark_color">
+            <color red="0.058823529411764705" green="0.11372549019607843" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

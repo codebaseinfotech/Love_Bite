@@ -20,6 +20,8 @@ class PostListTVCell: UITableViewCell {
     @IBOutlet weak var btnLike: UIButton!
     @IBOutlet weak var btnMore: UIButton!
     
+    var tappedMore: (()->Void)?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -33,6 +35,7 @@ class PostListTVCell: UITableViewCell {
     @IBAction func tappedLike(_ sender: Any) {
     }
     @IBAction func tappedMore(_ sender: Any) {
+        tappedMore?()
     }
     
 }

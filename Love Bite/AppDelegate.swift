@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let initialViewController = UploadPhotoVC()
+        let initialViewController = HomeVC()
         let navigationController = UINavigationController(rootViewController: initialViewController)
         navigationController.navigationBar.isHidden = true
         window?.rootViewController = navigationController // Set your root view controller here

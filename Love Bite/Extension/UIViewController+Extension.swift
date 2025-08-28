@@ -29,6 +29,8 @@ extension UIViewController {
             vc = FavoritesVC()
         } else if tab == 3 {
             vc = WalletVC()
+        } else if tab == 4 {
+            vc = ProfileVC()
         }
         
         self.push(vc, animated: false)

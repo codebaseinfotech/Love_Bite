@@ -21,8 +21,12 @@ class WalletVC: UIViewController {
     }
 
     @IBAction func tappedCashOut(_ sender: Any) {
+        let vc = CashOutVC()
+        self.push(vc)
     }
     @IBAction func tappedPurchase(_ sender: Any) {
+        let vc = PurchaseVC()
+        self.push(vc)
     }
     @IBAction func tappedViewTranHistory(_ sender: Any) {
         let vc = TransactionHistoryVC()
@@ -36,6 +40,7 @@ class WalletVC: UIViewController {
         self.changeTab(tab: 2)
     }
     @IBAction func tappedTProfile(_ sender: Any) {
+        self.changeTab(tab: 4)
     }
     
 
