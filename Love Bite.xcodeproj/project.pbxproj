@@ -83,6 +83,12 @@
 		887E23B02E5C647C0016E082 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23AD2E5C647C0016E082 /* ForgotPasswordVC.swift */; };
 		888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888C2CD42E5C6DD20047C8E5 /* RegisterVC.xib */; };
 		888C2CD62E5C6DD20047C8E5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C2CD32E5C6DD20047C8E5 /* RegisterVC.swift */; };
+		888EA71A2E605AD6002AB656 /* DecideHowYouWillEarnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EA7162E605AD6002AB656 /* DecideHowYouWillEarnVC.swift */; };
+		888EA71B2E605AD6002AB656 /* DecideHowYouWillEarnVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888EA7172E605AD6002AB656 /* DecideHowYouWillEarnVC.xib */; };
+		888EA7232E605AE6002AB656 /* collectionViewPhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EA71C2E605AE6002AB656 /* collectionViewPhotosCell.swift */; };
+		888EA7242E605AE6002AB656 /* ShowusyourbestshotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888EA71F2E605AE6002AB656 /* ShowusyourbestshotsVC.swift */; };
+		888EA7252E605AE6002AB656 /* ShowusyourbestshotsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888EA7202E605AE6002AB656 /* ShowusyourbestshotsVC.xib */; };
+		888EA7262E605AE6002AB656 /* collectionViewPhotosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888EA71D2E605AE6002AB656 /* collectionViewPhotosCell.xib */; };
 		88981FF72E5C949400C33CAB /* UploadPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981FF32E5C949400C33CAB /* UploadPhotoVC.swift */; };
 		88981FF82E5C949400C33CAB /* TelluswhoyouareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981FEF2E5C949400C33CAB /* TelluswhoyouareVC.swift */; };
 		88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88981FF42E5C949400C33CAB /* UploadPhotoVC.xib */; };
@@ -170,6 +176,12 @@
 		887E23AE2E5C647C0016E082 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
 		888C2CD32E5C6DD20047C8E5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		888C2CD42E5C6DD20047C8E5 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		888EA7162E605AD6002AB656 /* DecideHowYouWillEarnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecideHowYouWillEarnVC.swift; sourceTree = "<group>"; };
+		888EA7172E605AD6002AB656 /* DecideHowYouWillEarnVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DecideHowYouWillEarnVC.xib; sourceTree = "<group>"; };
+		888EA71C2E605AE6002AB656 /* collectionViewPhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewPhotosCell.swift; sourceTree = "<group>"; };
+		888EA71D2E605AE6002AB656 /* collectionViewPhotosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = collectionViewPhotosCell.xib; sourceTree = "<group>"; };
+		888EA71F2E605AE6002AB656 /* ShowusyourbestshotsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowusyourbestshotsVC.swift; sourceTree = "<group>"; };
+		888EA7202E605AE6002AB656 /* ShowusyourbestshotsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowusyourbestshotsVC.xib; sourceTree = "<group>"; };
 		88981FEF2E5C949400C33CAB /* TelluswhoyouareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelluswhoyouareVC.swift; sourceTree = "<group>"; };
 		88981FF02E5C949400C33CAB /* TelluswhoyouareVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TelluswhoyouareVC.xib; sourceTree = "<group>"; };
 		88981FF32E5C949400C33CAB /* UploadPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoVC.swift; sourceTree = "<group>"; };
@@ -611,6 +623,8 @@
 		887E23622E5C47540016E082 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				888EA7222E605AE6002AB656 /* Show us your best shots */,
+				888EA7192E605AD6002AB656 /* Decide How You’ll Earn */,
 				88342F052E5EE65500859FC7 /* Share a few details */,
 				88342F092E5EE65500859FC7 /* When’s the big day */,
 				88981FF22E5C949400C33CAB /* Tell us who you are */,
@@ -723,6 +737,50 @@
 				888C2CD42E5C6DD20047C8E5 /* RegisterVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		888EA7182E605AD6002AB656 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				888EA7162E605AD6002AB656 /* DecideHowYouWillEarnVC.swift */,
+				888EA7172E605AD6002AB656 /* DecideHowYouWillEarnVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		888EA7192E605AD6002AB656 /* Decide How You’ll Earn */ = {
+			isa = PBXGroup;
+			children = (
+				888EA7182E605AD6002AB656 /* View */,
+			);
+			path = "Decide How You’ll Earn";
+			sourceTree = "<group>";
+		};
+		888EA71E2E605AE6002AB656 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				888EA71C2E605AE6002AB656 /* collectionViewPhotosCell.swift */,
+				888EA71D2E605AE6002AB656 /* collectionViewPhotosCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		888EA7212E605AE6002AB656 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				888EA71F2E605AE6002AB656 /* ShowusyourbestshotsVC.swift */,
+				888EA7202E605AE6002AB656 /* ShowusyourbestshotsVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		888EA7222E605AE6002AB656 /* Show us your best shots */ = {
+			isa = PBXGroup;
+			children = (
+				888EA71E2E605AE6002AB656 /* Cell */,
+				888EA7212E605AE6002AB656 /* View */,
+			);
+			path = "Show us your best shots";
 			sourceTree = "<group>";
 		};
 		88981FF12E5C949400C33CAB /* View */ = {
@@ -847,8 +905,11 @@
 				887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */,
 				39AD9A4F2E5C8FCF0034B1B9 /* GalleryListCVCell.xib in Resources */,
 				392E21102E6019B1009AE7C6 /* CashOutVC.xib in Resources */,
+				888EA7252E605AE6002AB656 /* ShowusyourbestshotsVC.xib in Resources */,
+				888EA7262E605AE6002AB656 /* collectionViewPhotosCell.xib in Resources */,
 				39B244562E5C849D00B0138F /* FavoritesVC.xib in Resources */,
 				393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */,
+				888EA71B2E605AD6002AB656 /* DecideHowYouWillEarnVC.xib in Resources */,
 				393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */,
 				392E21282E6026CC009AE7C6 /* ProfileVC.xib in Resources */,
 				392E21182E601B6F009AE7C6 /* PurchaseVC.xib in Resources */,
@@ -925,6 +986,8 @@
 				392E211F2E601C9F009AE7C6 /* PurchaseCVCell.swift in Sources */,
 				887E23A92E5C55970016E082 /* UIFont+Extension.swift in Sources */,
 				39B2444E2E5C82BB00B0138F /* UIViewController+Extension.swift in Sources */,
+				888EA7232E605AE6002AB656 /* collectionViewPhotosCell.swift in Sources */,
+				888EA7242E605AE6002AB656 /* ShowusyourbestshotsVC.swift in Sources */,
 				887E23AA2E5C55970016E082 /* UIImageView+Extension.swift in Sources */,
 				887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */,
 				393F5A6A2E5C7F75009643D0 /* HomeVC.swift in Sources */,
@@ -936,6 +999,7 @@
 				392282EE2E6038EB0029B524 /* MenuVC.swift in Sources */,
 				39B2445B2E5C884300B0138F /* ProfileDetailsVC.swift in Sources */,
 				887E23852E5C53EF0016E082 /* Duration.swift in Sources */,
+				888EA71A2E605AD6002AB656 /* DecideHowYouWillEarnVC.swift in Sources */,
 				888C2CD62E5C6DD20047C8E5 /* RegisterVC.swift in Sources */,
 				887E23862E5C53EF0016E082 /* AppUtilites.swift in Sources */,
 				887E23872E5C53EF0016E082 /* String+Timepiece.swift in Sources */,

@@ -70,13 +70,19 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qN-dY-s5d">
-                            <rect key="frame" x="20" y="13" width="24" height="24"/>
+                            <rect key="frame" x="20" y="1" width="48" height="48"/>
+                            <color key="backgroundColor" name="view_bg_color"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="24" id="7k0-sf-jDu"/>
-                                <constraint firstAttribute="width" constant="24" id="KKt-Jv-WOE"/>
+                                <constraint firstAttribute="height" constant="48" id="7k0-sf-jDu"/>
+                                <constraint firstAttribute="width" constant="48" id="KKt-Jv-WOE"/>
                             </constraints>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             <state key="normal" image="ic_back"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="24"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="clickedBack:" destination="-1" eventType="touchUpInside" id="jfk-Jq-60j"/>
                             </connections>
@@ -120,6 +126,9 @@
         </namedColor>
         <namedColor name="text_dark_color">
             <color red="0.058823529411764705" green="0.11372549019607843" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="view_bg_color">
+            <color red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

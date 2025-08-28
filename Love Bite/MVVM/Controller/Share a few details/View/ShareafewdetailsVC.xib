@@ -93,7 +93,7 @@
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="backgroundColor" name="view_bg_color"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="bottom" secondItem="bSG-e0-omx" secondAttribute="bottom" id="1cP-1i-nWm"/>
                                                                 <constraint firstItem="KSx-4p-01k" firstAttribute="centerY" secondItem="GZ8-65-WiX" secondAttribute="centerY" id="8wg-b8-fY6"/>
@@ -104,6 +104,11 @@
                                                                 <constraint firstItem="bSG-e0-omx" firstAttribute="leading" secondItem="GZ8-65-WiX" secondAttribute="leading" id="iP7-5s-61W"/>
                                                                 <constraint firstItem="KSx-4p-01k" firstAttribute="leading" secondItem="GZ8-65-WiX" secondAttribute="leading" constant="14" id="qeq-A2-JHV"/>
                                                             </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </view>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -149,7 +154,7 @@
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="backgroundColor" name="view_bg_color"/>
                                                             <constraints>
                                                                 <constraint firstItem="nHR-EO-7rR" firstAttribute="top" secondItem="iYK-nD-Kfd" secondAttribute="top" id="1fJ-ai-blZ"/>
                                                                 <constraint firstAttribute="trailing" secondItem="rb0-aT-wf8" secondAttribute="trailing" constant="12" id="SXP-iw-w2M"/>
@@ -160,6 +165,11 @@
                                                                 <constraint firstItem="k3r-ND-lXz" firstAttribute="leading" secondItem="iYK-nD-Kfd" secondAttribute="leading" constant="14" id="pza-Vw-geq"/>
                                                                 <constraint firstItem="nHR-EO-7rR" firstAttribute="leading" secondItem="iYK-nD-Kfd" secondAttribute="leading" id="xSr-VC-v7U"/>
                                                             </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </view>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -205,7 +215,7 @@
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="backgroundColor" name="view_bg_color"/>
                                                             <constraints>
                                                                 <constraint firstItem="nly-su-Le7" firstAttribute="leading" secondItem="CNz-vv-bYh" secondAttribute="leading" id="B5W-2p-vf7"/>
                                                                 <constraint firstItem="nly-su-Le7" firstAttribute="top" secondItem="CNz-vv-bYh" secondAttribute="top" id="ROR-2K-3WX"/>
@@ -216,6 +226,11 @@
                                                                 <constraint firstAttribute="trailing" secondItem="Rmo-Se-h69" secondAttribute="trailing" constant="12" id="rEy-X3-ebl"/>
                                                                 <constraint firstItem="3V8-N5-tFf" firstAttribute="centerY" secondItem="CNz-vv-bYh" secondAttribute="centerY" id="zKL-pA-mBF"/>
                                                             </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </view>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -261,7 +276,7 @@
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="backgroundColor" name="view_bg_color"/>
                                                             <constraints>
                                                                 <constraint firstItem="pnB-N9-Yds" firstAttribute="top" secondItem="UpZ-Pf-Kbw" secondAttribute="top" id="9Zx-81-xLj"/>
                                                                 <constraint firstItem="ITc-I0-mbu" firstAttribute="centerY" secondItem="UpZ-Pf-Kbw" secondAttribute="centerY" id="EZh-IX-Yr8"/>
@@ -272,6 +287,11 @@
                                                                 <constraint firstAttribute="trailing" secondItem="pnB-N9-Yds" secondAttribute="trailing" id="utZ-AR-7ZB"/>
                                                                 <constraint firstItem="5Rp-kg-OBF" firstAttribute="leading" secondItem="UpZ-Pf-Kbw" secondAttribute="leading" constant="14" id="zuK-uf-bts"/>
                                                             </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </view>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -317,7 +337,7 @@
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="backgroundColor" name="view_bg_color"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="bottom" secondItem="m0D-uf-VA7" secondAttribute="bottom" id="CWT-Gv-moN"/>
                                                                 <constraint firstItem="gJ8-UW-IGg" firstAttribute="centerY" secondItem="Cgu-Iq-uQ5" secondAttribute="centerY" id="LkI-tO-h6I"/>
@@ -328,6 +348,11 @@
                                                                 <constraint firstItem="S01-SA-FGc" firstAttribute="centerY" secondItem="Cgu-Iq-uQ5" secondAttribute="centerY" id="vXg-Zb-r88"/>
                                                                 <constraint firstAttribute="trailing" secondItem="m0D-uf-VA7" secondAttribute="trailing" id="yMa-dq-70S"/>
                                                             </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </view>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -392,13 +417,19 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw5-vl-pg9">
-                            <rect key="frame" x="20" y="13" width="24" height="24"/>
+                            <rect key="frame" x="20" y="1" width="48" height="48"/>
+                            <color key="backgroundColor" name="view_bg_color"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="24" id="Sia-EE-R6A"/>
-                                <constraint firstAttribute="height" constant="24" id="wXw-79-Lnr"/>
+                                <constraint firstAttribute="width" constant="48" id="Sia-EE-R6A"/>
+                                <constraint firstAttribute="height" constant="48" id="wXw-79-Lnr"/>
                             </constraints>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             <state key="normal" image="ic_back"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="24"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="clickedBack:" destination="-1" eventType="touchUpInside" id="527-Mf-PNq"/>
                             </connections>
@@ -440,6 +471,9 @@
         </namedColor>
         <namedColor name="text_dark_color">
             <color red="0.058823529411764705" green="0.11372549019607843" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="view_bg_color">
+            <color red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
