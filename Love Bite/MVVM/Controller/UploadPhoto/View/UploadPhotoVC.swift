@@ -25,7 +25,7 @@ class UploadPhotoVC: UIViewController {
     
     @IBAction func clickedNext(_ sender: Any) {
         let vc = TelluswhoyouareVC()
-        self.push(vc)
+        self.push(vc, animated: false)
     }
     
     private func openGallery() {

@@ -1,0 +1,24 @@
+{
+  "originHash" : "3902afa4fcaf47dc7009dd50b29a6fed2218334c8167384f7e0f2446fc2e3f1d",
+  "pins" : [
+    {
+      "identity" : "countrypickerview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kizitonwose/CountryPickerView.git",
+      "state" : {
+        "revision" : "6ecf22145d577411fb97c8c964df0fb5886f035f",
+        "version" : "3.3.0"
+      }
+    },
+    {
+      "identity" : "datetimepicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/itsmeichigo/DateTimePicker.git",
+      "state" : {
+        "revision" : "8158c851e28cabe04b15125afad15a28eacf27d0",
+        "version" : "2.5.3"
+      }
+    }
+  ],
+  "version" : 3
+}

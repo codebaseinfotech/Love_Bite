@@ -17,7 +17,11 @@ class TelluswhoyouareVC: UIViewController {
 
 
     @IBAction func clickedBack(_ sender: Any) {
-        self.goBack()
+        self.goBack(animated: false )
     }
     
+    @IBAction func clickedNext(_ sender: Any) {
+        let vc = WhenisthebigdayVC()
+        self.push(vc, animated: false)
+    }
 }
