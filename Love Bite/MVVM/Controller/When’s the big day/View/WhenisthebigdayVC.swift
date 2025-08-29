@@ -19,17 +19,53 @@ class WhenisthebigdayVC: UIViewController {
     @IBOutlet weak var viewWomen: UIView!
     @IBOutlet weak var viewOther: UIView!
     
+    @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var viewTopBar: UIView!
+    
+    @IBOutlet weak var lblTitle: UILabel!
+    
+    @IBOutlet weak var viewBottomBtn: UIView!
+    
+    @IBOutlet weak var titleTopConst: NSLayoutConstraint!
+    @IBOutlet weak var titleHeightConst: NSLayoutConstraint!
+    
     
     var datePickerDOB = UIDatePicker()
     
     var selectedGender: String? = nil
     
+    var isOpenProfile = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupDatePicker()
+        setupUI()
         // Do any additional setup after loading the view.
     }
+    
+    private func setupUI() {
+        if isOpenProfile {
+            // Case: Opened from Profile
+            lblTitle.isHidden = true
+            viewTopBar.isHidden = false
+            viewBottomBtn.isHidden = true
+            progressView.isHidden = true
+            titleHeightConst.constant = 0
+            titleTopConst.constant = 0
+        } else {
+            // Case: Normal Flow
+            lblTitle.text = "When’s the big day?"
+            lblTitle.isHidden = false
+            viewTopBar.isHidden = true
+            viewBottomBtn.isHidden = false
+        }
+    }
+    
+    @IBAction func clickedGoBack(_ sender: Any) {
+        self.goBack(animated: false)
+    }
+    
     
     @IBAction func clickedBack(_ sender: Any) {
         self.goBack(animated: false)

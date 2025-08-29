@@ -21,18 +21,33 @@ class DecideHowYouWillEarnVC: UIViewController {
     @IBOutlet weak var viewFemale: UIView!
     @IBOutlet weak var viewEveryone: UIView!
     
+    @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var viewTopBar: UIView!
+    @IBOutlet weak var viewBottomBtn: UIView!
+    
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var titleTopConst: NSLayoutConstraint!
+    @IBOutlet weak var titleHeightConst: NSLayoutConstraint!
+    
     
     let tokensPerMinuteDropDown = DropDown()
     let tokensPerMessageDropDown = DropDown()
     
     var selectedGender: String? = nil
+    var isOpenProfile = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupDropDowns()
+        setupUI()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func clickedGoBack(_ sender: Any) {
+        self.goBack(animated: false)
+    }
+    
 
     @IBAction func clickedBack(_ sender: Any) {
         self.goBack(animated: false)
@@ -63,6 +78,24 @@ class DecideHowYouWillEarnVC: UIViewController {
     
     @IBAction func clickedEveryoneBtn(_ sender: Any) {
         updateGenderSelection(gender: "Everyone")
+    }
+    
+    private func setupUI() {
+        if isOpenProfile {
+            // Case: Opened from Profile
+            lblTitle.isHidden = true
+            viewTopBar.isHidden = false
+            viewBottomBtn.isHidden = true
+            progressView.isHidden = true
+            titleHeightConst.constant = 0
+            titleTopConst.constant = 0
+        } else {
+            // Case: Normal Flow
+            lblTitle.text = "Decide How You’ll Earn"
+            lblTitle.isHidden = false
+            viewTopBar.isHidden = true
+            viewBottomBtn.isHidden = false
+        }
     }
     
     private func updateGenderSelection(gender: String) {

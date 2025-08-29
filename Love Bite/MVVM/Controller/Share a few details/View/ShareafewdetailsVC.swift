@@ -16,17 +16,46 @@ class ShareafewdetailsVC: UIViewController {
     @IBOutlet weak var lblHairColor: UILabel!
     @IBOutlet weak var lblEthnicity: UILabel!
     
+    @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var viewTopBar: UIView!
+    @IBOutlet weak var viewBottomBtn: UIView!
+    
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var lblTopConst: NSLayoutConstraint!
+    @IBOutlet weak var titleHeightConst: NSLayoutConstraint!
+    
     let bodyTypeDropDown = DropDown()
     let heightDropDown = DropDown()
     let eyeColorDropDown = DropDown()
     let hairColorDropDown = DropDown()
     let ethnicityDropDown = DropDown()
+    
+    var isOpenProfile = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupDropDowns()
+        setupUI()
         // Do any additional setup after loading the view.
+    }
+    
+    private func setupUI() {
+        if isOpenProfile {
+            // Case: Opened from Profile
+            lblTitle.isHidden = true
+            viewTopBar.isHidden = false
+            viewBottomBtn.isHidden = true
+            progressView.isHidden = true
+            titleHeightConst.constant = 0
+            lblTopConst.constant = 0
+        } else {
+            // Case: Normal Flow
+            lblTitle.text = "Share a few details"
+            lblTitle.isHidden = false
+            viewTopBar.isHidden = true
+            viewBottomBtn.isHidden = false
+        }
     }
     
     func setupDropDowns() {
@@ -68,6 +97,11 @@ class ShareafewdetailsVC: UIViewController {
             $0.direction = .bottom
         }
     }
+    
+    @IBAction func clickedGoBack(_ sender: Any) {
+        self.goBack(animated: false)
+    }
+    
 
     @IBAction func clickedBack(_ sender: Any) {
         self.goBack(animated: false)

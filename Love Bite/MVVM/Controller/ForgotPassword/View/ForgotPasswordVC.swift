@@ -51,7 +51,7 @@ class ForgotPasswordVC: UIViewController {
             lblContinue.textColor = .white
             viewContinueBtn.isUserInteractionEnabled = true
         } else {
-            viewContinueBtn.backgroundColor = UIColor.clear
+            viewContinueBtn.backgroundColor = UIColor(hexString: "#F9F9F9")
             lblContinue.textColor = .darkGray
             viewContinueBtn.isUserInteractionEnabled = false
         }

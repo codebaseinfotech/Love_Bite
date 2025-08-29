@@ -11,9 +11,20 @@ class ShowusyourbestshotsVC: UIViewController {
 
     @IBOutlet weak var collectionViewPhotos: UICollectionView!
     
-    let imagePicker = UIImagePickerController()
+    @IBOutlet weak var progressView: UIProgressView!
     
-    var selectedPhotos: [UIImage] = []
+    @IBOutlet weak var viewTopBar: UIView!
+    @IBOutlet weak var viewBottomBtn: UIView!
+    
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var titleTopConst: NSLayoutConstraint!
+    @IBOutlet weak var titleHeightConst: NSLayoutConstraint!
+    
+    
+    
+    
+    
+    
     
     let SlidarsectionInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
     let SlidaritemsPerRow : CGFloat = 1
@@ -37,6 +48,13 @@ class ShowusyourbestshotsVC: UIViewController {
         return _SlidarflowLayout
     }
     
+    
+    let imagePicker = UIImagePickerController()
+    
+    var selectedPhotos: [UIImage] = []
+    
+    var isOpenProfile = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -46,7 +64,13 @@ class ShowusyourbestshotsVC: UIViewController {
         collectionViewPhotos.delegate = self
         collectionViewPhotos.dataSource = self
         collectionViewPhotos.collectionViewLayout =  SlidarflowLayout
+        
+        setupUI()
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func clickedGoBack(_ sender: Any) {
+        self.goBack(animated: false)
     }
 
     @IBAction func clickedBack(_ sender: Any) {
@@ -56,6 +80,24 @@ class ShowusyourbestshotsVC: UIViewController {
     @IBAction func clickedNext(_ sender: Any) {
         let vc = HomeVC()
         self.push(vc, animated: false)
+    }
+    
+    private func setupUI() {
+        if isOpenProfile {
+            // Case: Opened from Profile
+            lblTitle.isHidden = true
+            viewTopBar.isHidden = false
+            viewBottomBtn.isHidden = true
+            progressView.isHidden = true
+            titleHeightConst.constant = 0
+            titleTopConst.constant = 0
+        } else {
+            // Case: Normal Flow
+            lblTitle.text = "Show us your best shots"
+            lblTitle.isHidden = false
+            viewTopBar.isHidden = true
+            viewBottomBtn.isHidden = false
+        }
     }
     
 }

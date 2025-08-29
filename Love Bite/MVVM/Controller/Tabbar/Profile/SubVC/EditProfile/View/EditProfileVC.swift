@@ -19,5 +19,34 @@ class EditProfileVC: UIViewController {
         self.goBack()
     }
     
-
+    @IBAction func clickedPersonalInfo(_ sender: Any) {
+        let vc = TelluswhoyouareVC()
+        vc.isOpenProfile = true
+        self.push(vc)
+    }
+    
+    @IBAction func clickedBirthDateAndGender(_ sender: Any) {
+        let vc = WhenisthebigdayVC()
+        vc.isOpenProfile = true
+        self.push(vc)
+    }
+    
+    @IBAction func clickedPesonality(_ sender: Any) {
+        let vc = ShareafewdetailsVC()
+        vc.isOpenProfile = true
+        self.push(vc)
+    }
+    
+    @IBAction func clickedServiceFee(_ sender: Any) {
+        let vc = DecideHowYouWillEarnVC()
+        vc.isOpenProfile = true
+        self.push(vc)
+    }
+    
+    @IBAction func clickedGalleryPhotos(_ sender: Any) {
+        let vc = ShowusyourbestshotsVC()
+        vc.isOpenProfile = true
+        self.push(vc)
+    }
+    
 }

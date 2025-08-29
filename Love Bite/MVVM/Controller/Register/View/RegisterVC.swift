@@ -105,7 +105,7 @@ class RegisterVC: UIViewController {
             lblConfirmBtn.textColor = .white
             viewContinueBtn.isUserInteractionEnabled = true
         } else {
-            viewContinueBtn.backgroundColor = UIColor.clear
+            viewContinueBtn.backgroundColor = UIColor(hexString: "#F9F9F9")
             lblConfirmBtn.textColor = .darkGray
             viewContinueBtn.isUserInteractionEnabled = false
         }

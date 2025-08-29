@@ -84,7 +84,7 @@ class LoginVC: UIViewController {
             viewLoginBtn.backgroundColor = UIColor.AppColor.appPrimeryColor
             lblLogin.textColor = .white
         } else {
-            viewLoginBtn.backgroundColor = UIColor.clear
+            viewLoginBtn.backgroundColor = UIColor(hexString: "#F9F9F9")
             lblLogin.textColor = .AppColor.appTextGrayColor
         }
     }
