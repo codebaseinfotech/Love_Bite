@@ -20,6 +20,11 @@ extension UIViewController {
         self.dismiss(animated: animated)
     }
     
+    func presentVC(_ viewController: UIViewController, animated: Bool = true) {
+        viewController.modalPresentationStyle = .overFullScreen
+        self.present(viewController, animated: animated)
+    }
+    
     func changeTab(tab: Int = 1) {
         var vc = UIViewController()
         

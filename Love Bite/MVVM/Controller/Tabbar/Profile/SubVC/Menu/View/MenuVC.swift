@@ -30,8 +30,12 @@ class MenuVC: UIViewController {
         self.push(vc)
     }
     @IBAction func tappedReferAFriend(_ sender: Any) {
+        let vc = ReferAFriendVC()
+        self.presentVC(vc, animated: false)
     }
     @IBAction func tappedChangePassword(_ sender: Any) {
+        let vc = ChangePasswordVC()
+        self.push(vc)
     }
     @IBAction func tappedNotification(_ sender: Any) {
     }

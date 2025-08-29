@@ -21,6 +21,8 @@
 		393349742E604ACD00DF927A /* LoveUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393349722E604ACD00DF927A /* LoveUserVC.xib */; };
 		3933497B2E604B7900DF927A /* LoveUserListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393349792E604B7900DF927A /* LoveUserListTVCell.swift */; };
 		3933497C2E604B7900DF927A /* LoveUserListTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3933497A2E604B7900DF927A /* LoveUserListTVCell.xib */; };
+		393B0C672E61784B008DC5EA /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B0C652E61784B008DC5EA /* ChangePasswordVC.swift */; };
+		393B0C682E61784B008DC5EA /* ChangePasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393B0C662E61784B008DC5EA /* ChangePasswordVC.xib */; };
 		393F5A6A2E5C7F75009643D0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F5A662E5C7F75009643D0 /* HomeVC.swift */; };
 		393F5A6B2E5C7F75009643D0 /* UserListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F5A632E5C7F75009643D0 /* UserListCVCell.swift */; };
 		393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393F5A642E5C7F75009643D0 /* UserListCVCell.xib */; };
@@ -46,6 +48,8 @@
 		39B244562E5C849D00B0138F /* FavoritesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B244542E5C849D00B0138F /* FavoritesVC.xib */; };
 		39B2445B2E5C884300B0138F /* ProfileDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B244592E5C884300B0138F /* ProfileDetailsVC.swift */; };
 		39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */; };
+		39BF81372E6161F900779233 /* ReferAFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF81352E6161F900779233 /* ReferAFriendVC.swift */; };
+		39BF81382E6161F900779233 /* ReferAFriendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BF81362E6161F900779233 /* ReferAFriendVC.xib */; };
 		88342F0A2E5EE65500859FC7 /* ShareafewdetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88342F032E5EE65500859FC7 /* ShareafewdetailsVC.xib */; };
 		88342F0B2E5EE65500859FC7 /* WhenisthebigdayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88342F072E5EE65500859FC7 /* WhenisthebigdayVC.xib */; };
 		88342F0C2E5EE65500859FC7 /* ShareafewdetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88342F022E5EE65500859FC7 /* ShareafewdetailsVC.swift */; };
@@ -115,6 +119,8 @@
 		393349722E604ACD00DF927A /* LoveUserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoveUserVC.xib; sourceTree = "<group>"; };
 		393349792E604B7900DF927A /* LoveUserListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveUserListTVCell.swift; sourceTree = "<group>"; };
 		3933497A2E604B7900DF927A /* LoveUserListTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoveUserListTVCell.xib; sourceTree = "<group>"; };
+		393B0C652E61784B008DC5EA /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		393B0C662E61784B008DC5EA /* ChangePasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordVC.xib; sourceTree = "<group>"; };
 		393F5A632E5C7F75009643D0 /* UserListCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCVCell.swift; sourceTree = "<group>"; };
 		393F5A642E5C7F75009643D0 /* UserListCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCVCell.xib; sourceTree = "<group>"; };
 		393F5A662E5C7F75009643D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -140,6 +146,8 @@
 		39B244542E5C849D00B0138F /* FavoritesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesVC.xib; sourceTree = "<group>"; };
 		39B244592E5C884300B0138F /* ProfileDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsVC.swift; sourceTree = "<group>"; };
 		39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileDetailsVC.xib; sourceTree = "<group>"; };
+		39BF81352E6161F900779233 /* ReferAFriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferAFriendVC.swift; sourceTree = "<group>"; };
+		39BF81362E6161F900779233 /* ReferAFriendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReferAFriendVC.xib; sourceTree = "<group>"; };
 		6587258FFA877E82D8D7D422 /* Pods-Love Bite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Bite.debug.xcconfig"; path = "Target Support Files/Pods-Love Bite/Pods-Love Bite.debug.xcconfig"; sourceTree = "<group>"; };
 		88342F022E5EE65500859FC7 /* ShareafewdetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareafewdetailsVC.swift; sourceTree = "<group>"; };
 		88342F032E5EE65500859FC7 /* ShareafewdetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareafewdetailsVC.xib; sourceTree = "<group>"; };
@@ -218,6 +226,8 @@
 		392282E72E6038B30029B524 /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
+				393B0C642E617836008DC5EA /* ChangePassword */,
+				39BF81342E6161F100779233 /* ReferAFriend */,
 				888E7EA02E606EB900780DFF /* EditProfile */,
 				399A3F802E6050540008D68D /* BlockUser */,
 				393349702E604A9E00DF927A /* LoveUser */,
@@ -346,6 +356,23 @@
 				3933497A2E604B7900DF927A /* LoveUserListTVCell.xib */,
 			);
 			path = LoveUserListTVCell;
+			sourceTree = "<group>";
+		};
+		393B0C632E617836008DC5EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				393B0C652E61784B008DC5EA /* ChangePasswordVC.swift */,
+				393B0C662E61784B008DC5EA /* ChangePasswordVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		393B0C642E617836008DC5EA /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				393B0C632E617836008DC5EA /* View */,
+			);
+			path = ChangePassword;
 			sourceTree = "<group>";
 		};
 		393F5A652E5C7F75009643D0 /* Cell */ = {
@@ -547,6 +574,23 @@
 				39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */,
 			);
 			path = ProfileDetails;
+			sourceTree = "<group>";
+		};
+		39BF81332E6161F100779233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39BF81352E6161F900779233 /* ReferAFriendVC.swift */,
+				39BF81362E6161F900779233 /* ReferAFriendVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39BF81342E6161F100779233 /* ReferAFriend */ = {
+			isa = PBXGroup;
+			children = (
+				39BF81332E6161F100779233 /* View */,
+			);
+			path = ReferAFriend;
 			sourceTree = "<group>";
 		};
 		88342F042E5EE65500859FC7 /* View */ = {
@@ -919,6 +963,7 @@
 				887E235D2E5C44D00016E082 /* Assets.xcassets in Resources */,
 				393349742E604ACD00DF927A /* LoveUserVC.xib in Resources */,
 				887E23942E5C53EF0016E082 /* WWCalendarTimeSelector.storyboard in Resources */,
+				393B0C682E61784B008DC5EA /* ChangePasswordVC.xib in Resources */,
 				392E21202E601C9F009AE7C6 /* PurchaseCVCell.xib in Resources */,
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
 				39B2444C2E5C825400B0138F /* Active24HVC.xib in Resources */,
@@ -940,6 +985,7 @@
 				39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */,
 				88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */,
 				398E4FB22E5DA2CE000EB3EA /* TransactionHistoryTVCell.xib in Resources */,
+				39BF81382E6161F900779233 /* ReferAFriendVC.xib in Resources */,
 				88342F0A2E5EE65500859FC7 /* ShareafewdetailsVC.xib in Resources */,
 				88342F0B2E5EE65500859FC7 /* WhenisthebigdayVC.xib in Resources */,
 				39A22AFC2E5ECCC70041F60E /* TransactionHistoryHeaderView.xib in Resources */,
@@ -1011,6 +1057,7 @@
 				39B2444E2E5C82BB00B0138F /* UIViewController+Extension.swift in Sources */,
 				888EA7232E605AE6002AB656 /* collectionViewPhotosCell.swift in Sources */,
 				888EA7242E605AE6002AB656 /* ShowusyourbestshotsVC.swift in Sources */,
+				39BF81372E6161F900779233 /* ReferAFriendVC.swift in Sources */,
 				887E23AA2E5C55970016E082 /* UIImageView+Extension.swift in Sources */,
 				887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */,
 				393F5A6A2E5C7F75009643D0 /* HomeVC.swift in Sources */,
@@ -1018,6 +1065,7 @@
 				887E23B02E5C647C0016E082 /* ForgotPasswordVC.swift in Sources */,
 				3933497B2E604B7900DF927A /* LoveUserListTVCell.swift in Sources */,
 				887E235C2E5C44D00016E082 /* ViewController.swift in Sources */,
+				393B0C672E61784B008DC5EA /* ChangePasswordVC.swift in Sources */,
 				39A22AFA2E5ECCB70041F60E /* TransactionHistoryHeaderView.swift in Sources */,
 				392282EE2E6038EB0029B524 /* MenuVC.swift in Sources */,
 				39B2445B2E5C884300B0138F /* ProfileDetailsVC.swift in Sources */,
