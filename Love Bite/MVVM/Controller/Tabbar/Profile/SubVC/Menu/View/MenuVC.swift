@@ -38,6 +38,8 @@ class MenuVC: UIViewController {
         self.push(vc)
     }
     @IBAction func tappedNotification(_ sender: Any) {
+        let vc = NotificationVC()
+        self.push(vc)
     }
     @IBAction func tappedDeleteAccount(_ sender: Any) {
     }

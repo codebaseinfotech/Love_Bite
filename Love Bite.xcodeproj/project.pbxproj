@@ -99,6 +99,8 @@
 		88981FF82E5C949400C33CAB /* TelluswhoyouareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981FEF2E5C949400C33CAB /* TelluswhoyouareVC.swift */; };
 		88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88981FF42E5C949400C33CAB /* UploadPhotoVC.xib */; };
 		88981FFA2E5C949400C33CAB /* TelluswhoyouareVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88981FF02E5C949400C33CAB /* TelluswhoyouareVC.xib */; };
+		88C521812E61CE8A000CF915 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5217F2E61CE8A000CF915 /* NotificationVC.swift */; };
+		88C521822E61CE8A000CF915 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C521802E61CE8A000CF915 /* NotificationVC.xib */; };
 		FBC0B84882AFCF93E1F7B9D6 /* Pods_Love_Bite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FF86034D0CAA75903A46DE /* Pods_Love_Bite.framework */; };
 /* End PBXBuildFile section */
 
@@ -198,6 +200,8 @@
 		88981FF02E5C949400C33CAB /* TelluswhoyouareVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TelluswhoyouareVC.xib; sourceTree = "<group>"; };
 		88981FF32E5C949400C33CAB /* UploadPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoVC.swift; sourceTree = "<group>"; };
 		88981FF42E5C949400C33CAB /* UploadPhotoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadPhotoVC.xib; sourceTree = "<group>"; };
+		88C5217F2E61CE8A000CF915 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		88C521802E61CE8A000CF915 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,7 @@
 		392282E72E6038B30029B524 /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
+				88C5217D2E61CE61000CF915 /* Notification */,
 				393B0C642E617836008DC5EA /* ChangePassword */,
 				39BF81342E6161F100779233 /* ReferAFriend */,
 				888E7EA02E606EB900780DFF /* EditProfile */,
@@ -883,6 +888,23 @@
 			path = UploadPhoto;
 			sourceTree = "<group>";
 		};
+		88C5217D2E61CE61000CF915 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				88C5217E2E61CE74000CF915 /* View */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		88C5217E2E61CE74000CF915 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88C5217F2E61CE8A000CF915 /* NotificationVC.swift */,
+				88C521802E61CE8A000CF915 /* NotificationVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F3CB057D3D95581C180FD6CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -977,6 +999,7 @@
 				39B244562E5C849D00B0138F /* FavoritesVC.xib in Resources */,
 				888E7EA42E606EE800780DFF /* EditProfileVC.xib in Resources */,
 				393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */,
+				88C521822E61CE8A000CF915 /* NotificationVC.xib in Resources */,
 				888EA71B2E605AD6002AB656 /* DecideHowYouWillEarnVC.xib in Resources */,
 				393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */,
 				392E21282E6026CC009AE7C6 /* ProfileVC.xib in Resources */,
@@ -1069,6 +1092,7 @@
 				39A22AFA2E5ECCB70041F60E /* TransactionHistoryHeaderView.swift in Sources */,
 				392282EE2E6038EB0029B524 /* MenuVC.swift in Sources */,
 				39B2445B2E5C884300B0138F /* ProfileDetailsVC.swift in Sources */,
+				88C521812E61CE8A000CF915 /* NotificationVC.swift in Sources */,
 				887E23852E5C53EF0016E082 /* Duration.swift in Sources */,
 				888EA71A2E605AD6002AB656 /* DecideHowYouWillEarnVC.swift in Sources */,
 				888C2CD62E5C6DD20047C8E5 /* RegisterVC.swift in Sources */,
