@@ -54,7 +54,8 @@ class ShowusyourbestshotsVC: UIViewController {
     }
     
     @IBAction func clickedNext(_ sender: Any) {
-        
+        let vc = HomeVC()
+        self.push(vc, animated: false)
     }
     
 }

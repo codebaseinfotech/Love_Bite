@@ -33,6 +33,8 @@ class ProfileVC: UIViewController {
         self.push(vc)
     }
     @IBAction func tappedEditProfile(_ sender: Any) {
+        let vc = EditProfileVC()
+        self.push(vc)
     }
     @IBAction func tappedPreview(_ sender: Any) {
         let vc = ProfileDetailsVC()
