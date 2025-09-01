@@ -64,6 +64,8 @@
 		88342F132E5EE76B00859FC7 /* DateTimePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 88342F122E5EE76B00859FC7 /* DateTimePicker */; };
 		8858C2CB2E65A1E900F8A384 /* ChatListTblViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8858C2C92E65A1E900F8A384 /* ChatListTblViewCell.swift */; };
 		8858C2CC2E65A1E900F8A384 /* ChatListTblViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8858C2CA2E65A1E900F8A384 /* ChatListTblViewCell.xib */; };
+		885F9B412E65C06A00185C47 /* ChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885F9B3E2E65C06A00185C47 /* ChatVC.xib */; };
+		885F9B422E65C06A00185C47 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F9B3D2E65C06A00185C47 /* ChatVC.swift */; };
 		886199132E6595F800B32CAC /* MessagesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886199122E6595F800B32CAC /* MessagesVC.xib */; };
 		886199142E6595F800B32CAC /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886199112E6595F800B32CAC /* MessagesVC.swift */; };
 		887E235A2E5C44D00016E082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E23502E5C44D00016E082 /* AppDelegate.swift */; };
@@ -175,6 +177,8 @@
 		88342F072E5EE65500859FC7 /* WhenisthebigdayVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhenisthebigdayVC.xib; sourceTree = "<group>"; };
 		8858C2C92E65A1E900F8A384 /* ChatListTblViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTblViewCell.swift; sourceTree = "<group>"; };
 		8858C2CA2E65A1E900F8A384 /* ChatListTblViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListTblViewCell.xib; sourceTree = "<group>"; };
+		885F9B3D2E65C06A00185C47 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		885F9B3E2E65C06A00185C47 /* ChatVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatVC.xib; sourceTree = "<group>"; };
 		886199112E6595F800B32CAC /* MessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
 		886199122E6595F800B32CAC /* MessagesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesVC.xib; sourceTree = "<group>"; };
 		887E23382E5C44C50016E082 /* Love Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -581,6 +585,7 @@
 		39B244462E5C823800B0138F /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
+				885F9B402E65C06A00185C47 /* Chat */,
 				39D0B7612E65B81600558E42 /* Search */,
 				390829472E65AF9A0077AAB2 /* SubscribePopup */,
 				8861990F2E6595C300B32CAC /* Messages */,
@@ -719,6 +724,23 @@
 				8858C2CA2E65A1E900F8A384 /* ChatListTblViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		885F9B3F2E65C06A00185C47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				885F9B3D2E65C06A00185C47 /* ChatVC.swift */,
+				885F9B3E2E65C06A00185C47 /* ChatVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		885F9B402E65C06A00185C47 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				885F9B3F2E65C06A00185C47 /* View */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		8861990F2E6595C300B32CAC /* Messages */ = {
@@ -1115,6 +1137,7 @@
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
 				39B2444C2E5C825400B0138F /* Active24HVC.xib in Resources */,
 				398E4FAA2E5D98C8000EB3EA /* TransactionHistoryVC.xib in Resources */,
+				885F9B412E65C06A00185C47 /* ChatVC.xib in Resources */,
 				39D0B7652E65B81D00558E42 /* SearchVC.xib in Resources */,
 				392282EF2E6038EB0029B524 /* MenuVC.xib in Resources */,
 				8858C2CC2E65A1E900F8A384 /* ChatListTblViewCell.xib in Resources */,
@@ -1272,6 +1295,7 @@
 				392E210F2E6019B1009AE7C6 /* CashOutVC.swift in Sources */,
 				88342F0C2E5EE65500859FC7 /* ShareafewdetailsVC.swift in Sources */,
 				88342F0D2E5EE65500859FC7 /* WhenisthebigdayVC.swift in Sources */,
+				885F9B422E65C06A00185C47 /* ChatVC.swift in Sources */,
 				887E23902E5C53EF0016E082 /* NSCalendar+Timepiece.swift in Sources */,
 				887E23912E5C53EF0016E082 /* PickerViewViewController.swift in Sources */,
 				393349732E604ACD00DF927A /* LoveUserVC.swift in Sources */,

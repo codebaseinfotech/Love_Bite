@@ -17,8 +17,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessagesVC" customModule="Love_Bite" customModuleProvider="target">
             <connections>
+                <outlet property="lblMenuOption" destination="edG-Mh-1bk" id="dQR-2e-OTI"/>
                 <outlet property="tblViewChatList" destination="zzh-tu-Dhb" id="3p8-2J-VOb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewMenu" destination="6Oo-8F-lBy" id="z2L-Sb-TPQ"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -92,6 +94,9 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIS-ft-uDp">
                                     <rect key="frame" x="0.0" y="0.0" width="136.66666666666666" height="20"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <connections>
+                                        <action selector="tappedShowMenu:" destination="-1" eventType="touchUpInside" id="Fot-wp-kSS"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>

@@ -777,3 +777,28 @@ extension UIView {
         return nil
     }
 }
+
+
+extension UIView {
+    enum BorderSide {
+        case top, bottom, left, right
+    }
+
+    func addBorder(to side: BorderSide, color: UIColor = .lightGray, thickness: CGFloat = 1.0) {
+        let border = CALayer()
+        border.backgroundColor = color.cgColor
+
+        switch side {
+        case .top:
+            border.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: thickness)
+        case .bottom:
+            border.frame = CGRect(x: 0, y: self.frame.size.height - thickness, width: self.frame.size.width, height: thickness)
+        case .left:
+            border.frame = CGRect(x: 0, y: 0, width: thickness, height: self.frame.size.height)
+        case .right:
+            border.frame = CGRect(x: self.frame.size.width - thickness, y: 0, width: thickness, height: self.frame.size.height)
+        }
+
+        self.layer.addSublayer(border)
+    }
+}
