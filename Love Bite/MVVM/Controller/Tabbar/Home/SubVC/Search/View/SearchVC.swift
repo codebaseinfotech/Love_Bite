@@ -27,6 +27,10 @@ class SearchVC: UIViewController {
     @IBAction func tappedBack(_ sender: Any) {
         self.goBack()
     }
+    @IBAction func tappedFilter(_ sender: Any) {
+        let vc = FilterVC()
+        self.push(vc)
+    }
     
     
 

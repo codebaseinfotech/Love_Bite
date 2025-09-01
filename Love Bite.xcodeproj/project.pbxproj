@@ -54,6 +54,8 @@
 		39BF81382E6161F900779233 /* ReferAFriendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BF81362E6161F900779233 /* ReferAFriendVC.xib */; };
 		39CAF4F62E65BA1600F63456 /* SearchListTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CAF4F52E65BA1600F63456 /* SearchListTVCell.xib */; };
 		39CAF4F72E65BA1600F63456 /* SearchListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CAF4F42E65BA1600F63456 /* SearchListTVCell.swift */; };
+		39CAF4FE2E65C32500F63456 /* FilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CAF4FD2E65C32500F63456 /* FilterVC.xib */; };
+		39CAF4FF2E65C32500F63456 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CAF4FC2E65C32500F63456 /* FilterVC.swift */; };
 		39D0B7642E65B81D00558E42 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0B7622E65B81D00558E42 /* SearchVC.swift */; };
 		39D0B7652E65B81D00558E42 /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D0B7632E65B81D00558E42 /* SearchVC.xib */; };
 		88342F0A2E5EE65500859FC7 /* ShareafewdetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88342F032E5EE65500859FC7 /* ShareafewdetailsVC.xib */; };
@@ -168,6 +170,8 @@
 		39BF81362E6161F900779233 /* ReferAFriendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReferAFriendVC.xib; sourceTree = "<group>"; };
 		39CAF4F42E65BA1600F63456 /* SearchListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListTVCell.swift; sourceTree = "<group>"; };
 		39CAF4F52E65BA1600F63456 /* SearchListTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchListTVCell.xib; sourceTree = "<group>"; };
+		39CAF4FC2E65C32500F63456 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
+		39CAF4FD2E65C32500F63456 /* FilterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterVC.xib; sourceTree = "<group>"; };
 		39D0B7622E65B81D00558E42 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		39D0B7632E65B81D00558E42 /* SearchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
 		6587258FFA877E82D8D7D422 /* Pods-Love Bite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Bite.debug.xcconfig"; path = "Target Support Files/Pods-Love Bite/Pods-Love Bite.debug.xcconfig"; sourceTree = "<group>"; };
@@ -585,6 +589,7 @@
 		39B244462E5C823800B0138F /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
+				39CAF4F92E65C31200F63456 /* Filter */,
 				885F9B402E65C06A00185C47 /* Chat */,
 				39D0B7612E65B81600558E42 /* Search */,
 				390829472E65AF9A0077AAB2 /* SubscribePopup */,
@@ -663,6 +668,23 @@
 				39CAF4F52E65BA1600F63456 /* SearchListTVCell.xib */,
 			);
 			path = SearchListTVCell;
+			sourceTree = "<group>";
+		};
+		39CAF4F92E65C31200F63456 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				39CAF4FB2E65C31700F63456 /* View */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		39CAF4FB2E65C31700F63456 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39CAF4FC2E65C32500F63456 /* FilterVC.swift */,
+				39CAF4FD2E65C32500F63456 /* FilterVC.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		39D0B7602E65B81600558E42 /* View */ = {
@@ -1153,6 +1175,7 @@
 				393F5A6C2E5C7F75009643D0 /* UserListCVCell.xib in Resources */,
 				88C521822E61CE8A000CF915 /* NotificationVC.xib in Resources */,
 				888EA71B2E605AD6002AB656 /* DecideHowYouWillEarnVC.xib in Resources */,
+				39CAF4FE2E65C32500F63456 /* FilterVC.xib in Resources */,
 				393F5A6D2E5C7F75009643D0 /* HomeVC.xib in Resources */,
 				392E21282E6026CC009AE7C6 /* ProfileVC.xib in Resources */,
 				392E21182E601B6F009AE7C6 /* PurchaseVC.xib in Resources */,
@@ -1302,6 +1325,7 @@
 				39AD9A502E5C8FCF0034B1B9 /* GalleryListCVCell.swift in Sources */,
 				887E23922E5C53EF0016E082 /* AGDesignable.swift in Sources */,
 				88981FF72E5C949400C33CAB /* UploadPhotoVC.swift in Sources */,
+				39CAF4FF2E65C32500F63456 /* FilterVC.swift in Sources */,
 				88981FF82E5C949400C33CAB /* TelluswhoyouareVC.swift in Sources */,
 				887E23932E5C53EF0016E082 /* Int+Timepiece.swift in Sources */,
 				887E23682E5C4F0A0016E082 /* LoginVC.swift in Sources */,
