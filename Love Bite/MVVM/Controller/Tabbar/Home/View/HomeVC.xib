@@ -135,14 +135,25 @@
                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2L-Oc-Uf3">
+                            <rect key="frame" x="0.0" y="0.0" width="363" height="50"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <connections>
+                                <action selector="tappedSearch:" destination="-1" eventType="touchUpInside" id="1Nh-xl-D6q"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="E82-FJ-QQB" firstAttribute="leading" secondItem="kTs-fx-6BY" secondAttribute="leading" constant="12" id="Bby-vN-Gf1"/>
                         <constraint firstAttribute="bottom" secondItem="ci5-ed-AW3" secondAttribute="bottom" id="S7x-fV-sHc"/>
+                        <constraint firstAttribute="trailing" secondItem="q2L-Oc-Uf3" secondAttribute="trailing" id="caU-um-Qe4"/>
                         <constraint firstItem="ci5-ed-AW3" firstAttribute="leading" secondItem="E82-FJ-QQB" secondAttribute="trailing" constant="12" id="dKo-uP-N8c"/>
+                        <constraint firstItem="q2L-Oc-Uf3" firstAttribute="leading" secondItem="kTs-fx-6BY" secondAttribute="leading" id="dok-M1-5Sx"/>
+                        <constraint firstAttribute="bottom" secondItem="q2L-Oc-Uf3" secondAttribute="bottom" id="gff-Kw-Deq"/>
                         <constraint firstItem="ci5-ed-AW3" firstAttribute="top" secondItem="kTs-fx-6BY" secondAttribute="top" id="jwQ-sh-qh3"/>
                         <constraint firstAttribute="trailing" secondItem="ci5-ed-AW3" secondAttribute="trailing" constant="12" id="oEP-ev-g2U"/>
+                        <constraint firstItem="q2L-Oc-Uf3" firstAttribute="top" secondItem="kTs-fx-6BY" secondAttribute="top" id="tHy-gl-uq4"/>
                         <constraint firstItem="E82-FJ-QQB" firstAttribute="centerY" secondItem="kTs-fx-6BY" secondAttribute="centerY" id="xCL-we-jqV"/>
                         <constraint firstAttribute="height" constant="50" id="zfA-Kw-hvp"/>
                     </constraints>

@@ -52,6 +52,10 @@
 		39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */; };
 		39BF81372E6161F900779233 /* ReferAFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF81352E6161F900779233 /* ReferAFriendVC.swift */; };
 		39BF81382E6161F900779233 /* ReferAFriendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BF81362E6161F900779233 /* ReferAFriendVC.xib */; };
+		39CAF4F62E65BA1600F63456 /* SearchListTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CAF4F52E65BA1600F63456 /* SearchListTVCell.xib */; };
+		39CAF4F72E65BA1600F63456 /* SearchListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CAF4F42E65BA1600F63456 /* SearchListTVCell.swift */; };
+		39D0B7642E65B81D00558E42 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0B7622E65B81D00558E42 /* SearchVC.swift */; };
+		39D0B7652E65B81D00558E42 /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D0B7632E65B81D00558E42 /* SearchVC.xib */; };
 		88342F0A2E5EE65500859FC7 /* ShareafewdetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88342F032E5EE65500859FC7 /* ShareafewdetailsVC.xib */; };
 		88342F0B2E5EE65500859FC7 /* WhenisthebigdayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88342F072E5EE65500859FC7 /* WhenisthebigdayVC.xib */; };
 		88342F0C2E5EE65500859FC7 /* ShareafewdetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88342F022E5EE65500859FC7 /* ShareafewdetailsVC.swift */; };
@@ -160,6 +164,10 @@
 		39B2445A2E5C884300B0138F /* ProfileDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileDetailsVC.xib; sourceTree = "<group>"; };
 		39BF81352E6161F900779233 /* ReferAFriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferAFriendVC.swift; sourceTree = "<group>"; };
 		39BF81362E6161F900779233 /* ReferAFriendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReferAFriendVC.xib; sourceTree = "<group>"; };
+		39CAF4F42E65BA1600F63456 /* SearchListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListTVCell.swift; sourceTree = "<group>"; };
+		39CAF4F52E65BA1600F63456 /* SearchListTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchListTVCell.xib; sourceTree = "<group>"; };
+		39D0B7622E65B81D00558E42 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		39D0B7632E65B81D00558E42 /* SearchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
 		6587258FFA877E82D8D7D422 /* Pods-Love Bite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Bite.debug.xcconfig"; path = "Target Support Files/Pods-Love Bite/Pods-Love Bite.debug.xcconfig"; sourceTree = "<group>"; };
 		88342F022E5EE65500859FC7 /* ShareafewdetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareafewdetailsVC.swift; sourceTree = "<group>"; };
 		88342F032E5EE65500859FC7 /* ShareafewdetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareafewdetailsVC.xib; sourceTree = "<group>"; };
@@ -573,6 +581,7 @@
 		39B244462E5C823800B0138F /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
+				39D0B7612E65B81600558E42 /* Search */,
 				390829472E65AF9A0077AAB2 /* SubscribePopup */,
 				8861990F2E6595C300B32CAC /* Messages */,
 				39B244582E5C883A00B0138F /* ProfileDetails */,
@@ -632,6 +641,41 @@
 				39BF81332E6161F100779233 /* View */,
 			);
 			path = ReferAFriend;
+			sourceTree = "<group>";
+		};
+		39CAF4F12E65B9FD00F63456 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				39CAF4F32E65BA0B00F63456 /* SearchListTVCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		39CAF4F32E65BA0B00F63456 /* SearchListTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				39CAF4F42E65BA1600F63456 /* SearchListTVCell.swift */,
+				39CAF4F52E65BA1600F63456 /* SearchListTVCell.xib */,
+			);
+			path = SearchListTVCell;
+			sourceTree = "<group>";
+		};
+		39D0B7602E65B81600558E42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39D0B7622E65B81D00558E42 /* SearchVC.swift */,
+				39D0B7632E65B81D00558E42 /* SearchVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39D0B7612E65B81600558E42 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				39CAF4F12E65B9FD00F63456 /* Cell */,
+				39D0B7602E65B81600558E42 /* View */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		88342F042E5EE65500859FC7 /* View */ = {
@@ -1071,6 +1115,7 @@
 				887E235F2E5C44D00016E082 /* LaunchScreen.storyboard in Resources */,
 				39B2444C2E5C825400B0138F /* Active24HVC.xib in Resources */,
 				398E4FAA2E5D98C8000EB3EA /* TransactionHistoryVC.xib in Resources */,
+				39D0B7652E65B81D00558E42 /* SearchVC.xib in Resources */,
 				392282EF2E6038EB0029B524 /* MenuVC.xib in Resources */,
 				8858C2CC2E65A1E900F8A384 /* ChatListTblViewCell.xib in Resources */,
 				887E23672E5C4F0A0016E082 /* LoginVC.xib in Resources */,
@@ -1101,6 +1146,7 @@
 				887E23AF2E5C647C0016E082 /* ForgotPasswordVC.xib in Resources */,
 				887E23602E5C44D00016E082 /* Main.storyboard in Resources */,
 				39500DD32E5D927900D4E500 /* WalletVC.xib in Resources */,
+				39CAF4F62E65BA1600F63456 /* SearchListTVCell.xib in Resources */,
 				399A3F862E6050630008D68D /* BlockUserVC.xib in Resources */,
 				39500DCA2E5D686F00D4E500 /* PostListTVCell.xib in Resources */,
 				3933497C2E604B7900DF927A /* LoveUserListTVCell.xib in Resources */,
@@ -1212,6 +1258,8 @@
 				887E23892E5C53EF0016E082 /* WWCalendarTimeSelector.swift in Sources */,
 				887E238B2E5C53EF0016E082 /* VideoPicker.swift in Sources */,
 				887E238C2E5C53EF0016E082 /* ImagePicker.swift in Sources */,
+				39D0B7642E65B81D00558E42 /* SearchVC.swift in Sources */,
+				39CAF4F72E65BA1600F63456 /* SearchListTVCell.swift in Sources */,
 				887E238D2E5C53EF0016E082 /* NSDate+Timepiece.swift in Sources */,
 				398E4FAB2E5D98C8000EB3EA /* TransactionHistoryVC.swift in Sources */,
 				887E238E2E5C53EF0016E082 /* NSDateComponents+Timepiece.swift in Sources */,

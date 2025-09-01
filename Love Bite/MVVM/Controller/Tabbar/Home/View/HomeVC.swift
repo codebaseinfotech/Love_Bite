@@ -82,6 +82,10 @@ class HomeVC: UIViewController {
     @IBAction func tappedTProfile(_ sender: Any) {
         self.changeTab(tab: 4)
     }
+    @IBAction func tappedSearch(_ sender: Any) {
+        let vc = SearchVC()
+        self.push(vc)
+    }
     
 
 }
