@@ -786,19 +786,33 @@ extension UIView {
 
     func addBorder(to side: BorderSide, color: UIColor = .lightGray, thickness: CGFloat = 1.0) {
         let border = CALayer()
+        border.name = "borderLayer"
         border.backgroundColor = color.cgColor
 
         switch side {
         case .top:
-            border.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: thickness)
+            border.frame = CGRect(x: 0, y: 0, width: bounds.width, height: thickness)
         case .bottom:
-            border.frame = CGRect(x: 0, y: self.frame.size.height - thickness, width: self.frame.size.width, height: thickness)
+            border.frame = CGRect(x: 0, y: bounds.height - thickness, width: bounds.width, height: thickness)
         case .left:
-            border.frame = CGRect(x: 0, y: 0, width: thickness, height: self.frame.size.height)
+            border.frame = CGRect(x: 0, y: 0, width: thickness, height: bounds.height)
         case .right:
-            border.frame = CGRect(x: self.frame.size.width - thickness, y: 0, width: thickness, height: self.frame.size.height)
+            border.frame = CGRect(x: bounds.width - thickness, y: 0, width: thickness, height: bounds.height)
         }
 
-        self.layer.addSublayer(border)
+        layer.addSublayer(border)
+    }
+}
+
+extension UIView {
+    func roundCorners(corners: UIRectCorner, radius: CGFloat) {
+        let path = UIBezierPath(
+            roundedRect: self.bounds,
+            byRoundingCorners: corners,
+            cornerRadii: CGSize(width: radius, height: radius)
+        )
+        let mask = CAShapeLayer()
+        mask.path = path.cgPath
+        self.layer.mask = mask
     }
 }
