@@ -77,7 +77,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="361" height="32.333333333333336"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When receiving text messages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlP-Or-Pke">
-                                            <rect key="frame" x="0.0" y="7.6666666666666572" width="202" height="17"/>
+                                            <rect key="frame" x="0.0" y="7.6666666666666572" width="297" height="17"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                             <color key="textColor" name="text_dark_color"/>
                                             <nil key="highlightedColor"/>
@@ -88,6 +88,7 @@
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
+                                        <constraint firstItem="gpa-XJ-Ky7" firstAttribute="leading" secondItem="LlP-Or-Pke" secondAttribute="trailing" constant="15" id="Cla-P1-jKo"/>
                                         <constraint firstItem="LlP-Or-Pke" firstAttribute="centerY" secondItem="Xj7-iL-psl" secondAttribute="centerY" id="HRR-cM-OU0"/>
                                         <constraint firstAttribute="trailing" secondItem="gpa-XJ-Ky7" secondAttribute="trailing" id="Xbg-mh-oiX"/>
                                         <constraint firstItem="LlP-Or-Pke" firstAttribute="leading" secondItem="Xj7-iL-psl" secondAttribute="leading" id="ZW1-9T-9Pa"/>
@@ -98,7 +99,7 @@
                                     <rect key="frame" x="0.0" y="50.333333333333343" width="361" height="32.333333333333343"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When someone favorites me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8R-Wi-VGj">
-                                            <rect key="frame" x="0.0" y="7.6666666666666572" width="187.66666666666666" height="17"/>
+                                            <rect key="frame" x="0.0" y="7.6666666666666572" width="297" height="17"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                             <color key="textColor" name="text_dark_color"/>
                                             <nil key="highlightedColor"/>
@@ -112,6 +113,7 @@
                                         <constraint firstItem="j8R-Wi-VGj" firstAttribute="centerY" secondItem="7UT-oZ-EV6" secondAttribute="centerY" id="8MZ-5t-fB1"/>
                                         <constraint firstItem="fbd-BT-HJK" firstAttribute="centerY" secondItem="7UT-oZ-EV6" secondAttribute="centerY" id="8bH-kE-Enb"/>
                                         <constraint firstItem="j8R-Wi-VGj" firstAttribute="leading" secondItem="7UT-oZ-EV6" secondAttribute="leading" id="Ucn-9Y-jpB"/>
+                                        <constraint firstItem="fbd-BT-HJK" firstAttribute="leading" secondItem="j8R-Wi-VGj" secondAttribute="trailing" constant="15" id="fL3-XE-spX"/>
                                         <constraint firstAttribute="trailing" secondItem="fbd-BT-HJK" secondAttribute="trailing" id="gj8-Os-NDN"/>
                                     </constraints>
                                 </view>
@@ -119,7 +121,7 @@
                                     <rect key="frame" x="0.0" y="100.66666666666666" width="361" height="32.666666666666657"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Missed video chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZl-iz-mYh">
-                                            <rect key="frame" x="0.0" y="8" width="119.66666666666667" height="17"/>
+                                            <rect key="frame" x="0.0" y="8" width="297" height="17"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                             <color key="textColor" name="text_dark_color"/>
                                             <nil key="highlightedColor"/>
@@ -132,6 +134,7 @@
                                     <constraints>
                                         <constraint firstItem="CZl-iz-mYh" firstAttribute="leading" secondItem="zvx-L5-ctP" secondAttribute="leading" id="4dr-D1-Fgw"/>
                                         <constraint firstItem="CZl-iz-mYh" firstAttribute="centerY" secondItem="zvx-L5-ctP" secondAttribute="centerY" id="IaI-Qo-Cl8"/>
+                                        <constraint firstItem="3uf-hn-xGa" firstAttribute="leading" secondItem="CZl-iz-mYh" secondAttribute="trailing" constant="15" id="cuw-YD-5Sy"/>
                                         <constraint firstItem="3uf-hn-xGa" firstAttribute="centerY" secondItem="zvx-L5-ctP" secondAttribute="centerY" id="hV3-al-cNP"/>
                                         <constraint firstAttribute="trailing" secondItem="3uf-hn-xGa" secondAttribute="trailing" id="zrI-nF-97c"/>
                                     </constraints>
@@ -140,7 +143,7 @@
                                     <rect key="frame" x="0.0" y="151.33333333333331" width="361" height="32.333333333333343"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incoming chat room messages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWD-xl-XhI">
-                                            <rect key="frame" x="0.0" y="7.6666666666666856" width="202" height="17"/>
+                                            <rect key="frame" x="0.0" y="7.6666666666666856" width="297" height="17"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                             <color key="textColor" name="text_dark_color"/>
                                             <nil key="highlightedColor"/>
@@ -154,6 +157,7 @@
                                         <constraint firstItem="bWD-xl-XhI" firstAttribute="centerY" secondItem="kVr-bS-CDr" secondAttribute="centerY" id="FYG-Qh-xGg"/>
                                         <constraint firstAttribute="trailing" secondItem="oed-ob-oQf" secondAttribute="trailing" id="Otf-NX-7Uw"/>
                                         <constraint firstItem="oed-ob-oQf" firstAttribute="centerY" secondItem="kVr-bS-CDr" secondAttribute="centerY" id="jiV-ib-Ikz"/>
+                                        <constraint firstItem="oed-ob-oQf" firstAttribute="leading" secondItem="bWD-xl-XhI" secondAttribute="trailing" constant="15" id="uJF-Kr-tQ1"/>
                                         <constraint firstItem="bWD-xl-XhI" firstAttribute="leading" secondItem="kVr-bS-CDr" secondAttribute="leading" id="uj6-o2-2EB"/>
                                     </constraints>
                                 </view>
@@ -161,7 +165,7 @@
                                     <rect key="frame" x="0.0" y="201.66666666666669" width="361" height="32.333333333333343"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expired Love Bite subscripiton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrA-2H-rdr">
-                                            <rect key="frame" x="0.0" y="7.6666666666666288" width="200" height="17"/>
+                                            <rect key="frame" x="0.0" y="7.6666666666666288" width="297" height="17"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                             <color key="textColor" name="text_dark_color"/>
                                             <nil key="highlightedColor"/>
@@ -176,6 +180,7 @@
                                         <constraint firstItem="OWx-h6-KXS" firstAttribute="centerY" secondItem="kAz-bp-74G" secondAttribute="centerY" id="Mpr-sX-H7b"/>
                                         <constraint firstItem="yrA-2H-rdr" firstAttribute="leading" secondItem="kAz-bp-74G" secondAttribute="leading" id="Q56-eb-6ov"/>
                                         <constraint firstItem="yrA-2H-rdr" firstAttribute="centerY" secondItem="kAz-bp-74G" secondAttribute="centerY" id="Ud1-UN-UaG"/>
+                                        <constraint firstItem="OWx-h6-KXS" firstAttribute="leading" secondItem="yrA-2H-rdr" secondAttribute="trailing" constant="15" id="kKx-QC-hss"/>
                                     </constraints>
                                 </view>
                             </subviews>

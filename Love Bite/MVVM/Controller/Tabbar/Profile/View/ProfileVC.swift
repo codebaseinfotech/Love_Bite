@@ -41,6 +41,8 @@ class ProfileVC: UIViewController {
         self.push(vc)
     }
     @IBAction func tappedCreateNew(_ sender: Any) {
+        let vc = CreatePostVC()
+        self.push(vc)
     }
     
     @IBAction func tappedHome(_ sender: Any) {
