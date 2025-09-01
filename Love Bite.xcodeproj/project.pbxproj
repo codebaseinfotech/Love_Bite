@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3908294A2E65AFA70077AAB2 /* SubscribePopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390829482E65AFA70077AAB2 /* SubscribePopupVC.swift */; };
+		3908294B2E65AFA70077AAB2 /* SubscribePopupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 390829492E65AFA70077AAB2 /* SubscribePopupVC.xib */; };
 		392282EE2E6038EB0029B524 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392282EC2E6038EB0029B524 /* MenuVC.swift */; };
 		392282EF2E6038EB0029B524 /* MenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392282ED2E6038EB0029B524 /* MenuVC.xib */; };
 		392E210F2E6019B1009AE7C6 /* CashOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392E210D2E6019B1009AE7C6 /* CashOutVC.swift */; };
@@ -113,6 +115,8 @@
 /* Begin PBXFileReference section */
 		08FF86034D0CAA75903A46DE /* Pods_Love_Bite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love_Bite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E0203285AD6C69BAE49193 /* Pods-Love Bite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Bite.release.xcconfig"; path = "Target Support Files/Pods-Love Bite/Pods-Love Bite.release.xcconfig"; sourceTree = "<group>"; };
+		390829482E65AFA70077AAB2 /* SubscribePopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribePopupVC.swift; sourceTree = "<group>"; };
+		390829492E65AFA70077AAB2 /* SubscribePopupVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribePopupVC.xib; sourceTree = "<group>"; };
 		392282EC2E6038EB0029B524 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		392282ED2E6038EB0029B524 /* MenuVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuVC.xib; sourceTree = "<group>"; };
 		392E210D2E6019B1009AE7C6 /* CashOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashOutVC.swift; sourceTree = "<group>"; };
@@ -237,6 +241,23 @@
 				29E0203285AD6C69BAE49193 /* Pods-Love Bite.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		390829462E65AF9A0077AAB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				390829482E65AFA70077AAB2 /* SubscribePopupVC.swift */,
+				390829492E65AFA70077AAB2 /* SubscribePopupVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		390829472E65AF9A0077AAB2 /* SubscribePopup */ = {
+			isa = PBXGroup;
+			children = (
+				390829462E65AF9A0077AAB2 /* View */,
+			);
+			path = SubscribePopup;
 			sourceTree = "<group>";
 		};
 		392282E72E6038B30029B524 /* SubVC */ = {
@@ -552,6 +573,7 @@
 		39B244462E5C823800B0138F /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
+				390829472E65AF9A0077AAB2 /* SubscribePopup */,
 				8861990F2E6595C300B32CAC /* Messages */,
 				39B244582E5C883A00B0138F /* ProfileDetails */,
 				39B244482E5C824800B0138F /* Active24H */,
@@ -1068,6 +1090,7 @@
 				392E21182E601B6F009AE7C6 /* PurchaseVC.xib in Resources */,
 				888C2CD52E5C6DD20047C8E5 /* RegisterVC.xib in Resources */,
 				39B2445C2E5C884300B0138F /* ProfileDetailsVC.xib in Resources */,
+				3908294B2E65AFA70077AAB2 /* SubscribePopupVC.xib in Resources */,
 				88981FF92E5C949400C33CAB /* UploadPhotoVC.xib in Resources */,
 				398E4FB22E5DA2CE000EB3EA /* TransactionHistoryTVCell.xib in Resources */,
 				39BF81382E6161F900779233 /* ReferAFriendVC.xib in Resources */,
@@ -1211,6 +1234,7 @@
 				887E23932E5C53EF0016E082 /* Int+Timepiece.swift in Sources */,
 				887E23682E5C4F0A0016E082 /* LoginVC.swift in Sources */,
 				399A3F852E6050630008D68D /* BlockUserVC.swift in Sources */,
+				3908294A2E65AFA70077AAB2 /* SubscribePopupVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

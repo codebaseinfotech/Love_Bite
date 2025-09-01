@@ -90,6 +90,18 @@ class ProfileDetailsVC: UIViewController {
     @IBAction func tappedClose(_ sender: Any) {
         self.goBack()
     }
+    @IBAction func tappedSubscribe(_ sender: Any) {
+        let vc = SubscribePopupVC()
+        self.presentVC(vc, animated: false)
+    }
+    @IBAction func tappedFavourite(_ sender: Any) {
+    }
+    @IBAction func tappedChat(_ sender: Any) {
+    }
+    @IBAction func tappedVideoCall(_ sender: Any) {
+    }
+    @IBAction func tappedMore(_ sender: Any) {
+    }
     
   
 
