@@ -25,6 +25,9 @@ class MenuVC: UIViewController {
         self.push(vc)
     }
     @IBAction func tappedGroupMembers(_ sender: Any) {
+        let vc = MessagesVC()
+        vc.selectedOption = "Chat Room"
+        self.push(vc)
     }
     @IBAction func tappedBlockedUser(_ sender: Any) {
         let vc = BlockUserVC()
@@ -43,6 +46,12 @@ class MenuVC: UIViewController {
         self.push(vc)
     }
     @IBAction func tappedDeleteAccount(_ sender: Any) {
+        let alert = UIAlertController(title: "Delete Account", message: "Are you sure you want to delete account?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Delete", style: .destructive, handler: { _ in
+            self.logoutUser()
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
     @IBAction func tappedTermsCondition(_ sender: Any) {
     }

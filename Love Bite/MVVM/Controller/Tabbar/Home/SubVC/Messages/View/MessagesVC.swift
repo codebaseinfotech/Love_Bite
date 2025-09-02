@@ -17,14 +17,18 @@ class MessagesVC: UIViewController {
         }
     }
     
-    @IBOutlet weak var lblMenuOption: UILabel!
+    @IBOutlet weak var lblMenuOption: UILabel! {
+        didSet {
+            lblMenuOption.text = selectedOption
+        }
+    }
     @IBOutlet weak var viewMenu: UIView!
     
     
     
     private var menuView: UIView?
     private var overlayView: UIControl?
-    private var selectedOption: String = "Private Messages"
+    var selectedOption: String = "Private Messages"
     
     override func viewDidLoad() {
         super.viewDidLoad()
