@@ -130,7 +130,7 @@ class ProfileDetailsVC: UIViewController {
 
 }
 
-// MARK: -
+// MARK: - SubscribeDidTap
 extension ProfileDetailsVC: SubscribeDidTap {
     func didTapOnChat() {
         let vc = ChatVC()

@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="5" width="320" height="74"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dB3-ei-02C">
-                                <rect key="frame" x="0.0" y="7" width="60" height="60"/>
+                                <rect key="frame" x="16" y="7" width="60" height="60"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_profile_sdummy" translatesAutoresizingMaskIntoConstraints="NO" id="hG2-1b-g2r">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -66,19 +66,19 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jonathan_@karen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8g-YY-qGL">
-                                <rect key="frame" x="74" y="15.999999999999998" width="186" height="19.333333333333329"/>
+                                <rect key="frame" x="90" y="15.999999999999998" width="154" height="19.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                 <color key="textColor" name="text_dark_color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Okay that will be awesome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0d-iJ-2ar">
-                                <rect key="frame" x="74" y="41.333333333333336" width="186" height="17"/>
+                                <rect key="frame" x="90" y="41.333333333333336" width="154" height="17"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                 <color key="textColor" name="text_dark_color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kHv-fA-QOE">
-                                <rect key="frame" x="265" y="19.666666666666671" width="55" height="35"/>
+                                <rect key="frame" x="249" y="19.666666666666671" width="55" height="35"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nCP-Up-ld5">
                                         <rect key="frame" x="0.0" y="0.0" width="55" height="15"/>
@@ -129,13 +129,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dB3-ei-02C" firstAttribute="leading" secondItem="Dkc-AZ-vge" secondAttribute="leading" id="249-pp-5Pt"/>
+                            <constraint firstItem="dB3-ei-02C" firstAttribute="leading" secondItem="Dkc-AZ-vge" secondAttribute="leading" constant="16" id="249-pp-5Pt"/>
                             <constraint firstItem="b0d-iJ-2ar" firstAttribute="leading" secondItem="dB3-ei-02C" secondAttribute="trailing" constant="14" id="4nD-zA-KwL"/>
                             <constraint firstItem="kHv-fA-QOE" firstAttribute="leading" secondItem="x8g-YY-qGL" secondAttribute="trailing" constant="5" id="GQl-xW-ah3"/>
                             <constraint firstItem="kHv-fA-QOE" firstAttribute="centerY" secondItem="Dkc-AZ-vge" secondAttribute="centerY" id="LJb-eu-gRw"/>
                             <constraint firstItem="kHv-fA-QOE" firstAttribute="leading" secondItem="b0d-iJ-2ar" secondAttribute="trailing" constant="5" id="U7m-6W-5TV"/>
                             <constraint firstItem="dB3-ei-02C" firstAttribute="centerY" secondItem="Dkc-AZ-vge" secondAttribute="centerY" id="dRK-JG-llL"/>
-                            <constraint firstAttribute="trailing" secondItem="kHv-fA-QOE" secondAttribute="trailing" id="f3B-FB-c0F"/>
+                            <constraint firstAttribute="trailing" secondItem="kHv-fA-QOE" secondAttribute="trailing" constant="16" id="f3B-FB-c0F"/>
                             <constraint firstItem="x8g-YY-qGL" firstAttribute="top" secondItem="dB3-ei-02C" secondAttribute="top" constant="9" id="lgq-AW-W7v"/>
                             <constraint firstItem="x8g-YY-qGL" firstAttribute="leading" secondItem="dB3-ei-02C" secondAttribute="trailing" constant="14" id="mqD-WZ-ebd"/>
                             <constraint firstItem="b0d-iJ-2ar" firstAttribute="top" secondItem="x8g-YY-qGL" secondAttribute="bottom" constant="6" id="xWs-vj-I2B"/>

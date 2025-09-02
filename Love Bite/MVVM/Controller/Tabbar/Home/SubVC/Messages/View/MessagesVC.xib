@@ -156,8 +156,8 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zzh-tu-Dhb">
-                    <rect key="frame" x="16" y="263" width="361" height="555"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zzh-tu-Dhb">
+                    <rect key="frame" x="0.0" y="263" width="393" height="555"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
@@ -165,14 +165,14 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="2Ea-oG-cqI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="HNG-1Q-Z9d"/>
-                <constraint firstItem="zzh-tu-Dhb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="I1M-7j-94Y"/>
+                <constraint firstItem="zzh-tu-Dhb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="I1M-7j-94Y"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rJJ-XJ-LeE" secondAttribute="trailing" constant="16" id="POd-oq-lu1"/>
                 <constraint firstItem="2Ea-oG-cqI" firstAttribute="top" secondItem="6bv-Ze-Wd5" secondAttribute="bottom" constant="22" id="Shg-Xl-PkL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6bv-Ze-Wd5" secondAttribute="trailing" id="dih-zd-obA"/>
                 <constraint firstItem="rJJ-XJ-LeE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="dmb-mm-XCp"/>
                 <constraint firstItem="zzh-tu-Dhb" firstAttribute="top" secondItem="rJJ-XJ-LeE" secondAttribute="bottom" constant="20" id="fAq-fo-E20"/>
                 <constraint firstItem="rJJ-XJ-LeE" firstAttribute="top" secondItem="2Ea-oG-cqI" secondAttribute="bottom" constant="20" id="gwB-oe-bod"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zzh-tu-Dhb" secondAttribute="trailing" constant="16" id="iES-fi-Y3L"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zzh-tu-Dhb" secondAttribute="trailing" id="iES-fi-Y3L"/>
                 <constraint firstItem="6bv-Ze-Wd5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="iHw-fW-mkE"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="zzh-tu-Dhb" secondAttribute="bottom" id="kQr-5P-cHg"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2Ea-oG-cqI" secondAttribute="trailing" constant="16" id="lQh-X3-zZg"/>

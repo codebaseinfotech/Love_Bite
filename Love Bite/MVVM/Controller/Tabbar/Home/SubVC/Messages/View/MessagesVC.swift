@@ -110,14 +110,19 @@ class MessagesVC: UIViewController {
         menuView = nil
         overlayView?.removeFromSuperview()
         overlayView = nil
+        tblViewChatList.reloadData()
     }
     
 }
 
 extension MessagesVC: UITableViewDelegate, UITableViewDataSource {
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return selectedOption == "Private Messages" ? 1 : 2
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return selectedOption == "Private Messages" ? 10 : section == 0 ? 1 : 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -134,5 +139,20 @@ extension MessagesVC: UITableViewDelegate, UITableViewDataSource {
         let vc = ChatVC()
         self.push(vc)
     }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return selectedOption == "Private Messages" ? 0.5 : 35
+    }
+    
+    // MARK: - UITableView Header
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = Bundle.main.loadNibNamed("TransactionHistoryHeaderView", owner: self, options: nil)?.first as? TransactionHistoryHeaderView
+        
+        headerView?.lblName.text = section == 0 ? "My Group" : "Love Bite User’s Groups"
+        headerView?.lblName.font = UIFont.systemFont(ofSize: 18, weight: .medium)
+        
+        return selectedOption == "Private Messages" ? UIView() : headerView
+    }
+    
     
 }
