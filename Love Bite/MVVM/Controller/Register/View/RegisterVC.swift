@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class RegisterVC: UIViewController {
 
@@ -76,10 +77,69 @@ class RegisterVC: UIViewController {
     }
     
     @IBAction func clickedContinue(_ sender: Any) {
-        let vc = UploadPhotoVC()
-        self.push(vc)
+        
+        guard let userName = txtUsername.text, !userName.isEmpty else {
+            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter userName")
+            return
+        }
+        
+        guard let email = txEmail.text, !email.isEmpty else {
+            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter email")
+            return
+        }
+        
+        guard email.isValidEmail else {
+            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter valid email")
+            return
+        }
+        
+        guard let password = txtPassword.text, !password.isEmpty else {
+            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter password")
+            return
+        }
+        
+        guard let cofirmPassword = txtConfirmPassword.text, !cofirmPassword.isEmpty else {
+            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter confirm password")
+            return
+        }
+        
+        if password != cofirmPassword {
+            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Password and confirm password do not match")
+            return
+        }
+        
+        registerUser(email: email, password: password, username: userName)
     }
     
+    // MARK: - Register User
+    func registerUser(email: String, password: String, username: String) {
+        self.showActivityIndicator()
+        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+            if let error = error {
+                self.hideActivityIndicator()
+                print("Error: \(error.localizedDescription)")
+                AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: error.localizedDescription)
+            } else if let user = authResult?.user {
+                // Update display name
+                let changeRequest = user.createProfileChangeRequest()
+                changeRequest.displayName = username
+                changeRequest.commitChanges { profileError in
+                    self.hideActivityIndicator()
+                    if let profileError = profileError {
+                        print("Profile update error: \(profileError.localizedDescription)")
+                        AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: profileError.localizedDescription)
+                    } else {
+                        print("✅ User registered: \(user.email ?? "") with username: \(username)")
+                        LBUtulites.isSaveUserLogin(isLogin: true, isConfirmUpdate: false)
+                        let vc = UploadPhotoVC()
+                        self.push(vc)
+                    }
+                }
+            }
+        }
+    }
+    
+    // MARK: - setDefaultBorders
     private func setDefaultBorders() {
         [viewUsername, viewEmail, viewPassword, viewConfirmPassword, viewReferralCode].forEach {
             $0?.layer.borderWidth = 1

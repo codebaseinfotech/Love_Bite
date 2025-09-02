@@ -42,3 +42,33 @@ extension UIViewController {
     }
     
 }
+
+
+extension UIViewController {
+    
+    // Show loader
+    func showActivityIndicator(style: UIActivityIndicatorView.Style = .large) {
+        // Check if already added
+        if let _ = view.viewWithTag(999999) { return }
+        
+        // Create background overlay
+        let overlay = UIView(frame: view.bounds)
+        overlay.backgroundColor = UIColor(white: 0, alpha: 0.4)
+        overlay.tag = 999999
+        
+        // Create activity indicator
+        let indicator = UIActivityIndicatorView(style: style)
+        indicator.center = overlay.center
+        indicator.startAnimating()
+        
+        overlay.addSubview(indicator)
+        view.addSubview(overlay)
+    }
+    
+    // Hide loader
+    func hideActivityIndicator() {
+        if let overlay = view.viewWithTag(999999) {
+            overlay.removeFromSuperview()
+        }
+    }
+}

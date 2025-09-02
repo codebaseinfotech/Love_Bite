@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MenuVC: UIViewController {
 
@@ -49,6 +50,21 @@ class MenuVC: UIViewController {
     }
     
     @IBAction func tappedLogout(_ sender: Any) {
+        let alert = UIAlertController(title: "Logout", message: "Are you sure you want to logout?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Logout", style: .destructive, handler: { _ in
+            self.logoutUser()
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
     
+    func logoutUser() {
+        do {
+            try Auth.auth().signOut()
+            print("Logged out successfully")
+            AppDelegate.appDelegate.setUpLogin()
+        } catch {
+            print("Error signing out: \(error.localizedDescription)")
+        }
+    }
 }

@@ -50,12 +50,17 @@
                     <color key="textColor" name="text_color"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_defoult_Img" translatesAutoresizingMaskIntoConstraints="NO" id="FeB-vv-mrT">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_defoult_Img" translatesAutoresizingMaskIntoConstraints="NO" id="FeB-vv-mrT">
                     <rect key="frame" x="130.66666666666666" y="266" width="131.99999999999997" height="132"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="132" id="NBv-oZ-mXa"/>
                         <constraint firstAttribute="height" constant="132" id="lYu-Sz-eMZ"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusValue">
+                            <real key="value" value="66"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OW7-Jo-ia5">
                     <rect key="frame" x="91.666666666666686" y="438" width="210" height="40"/>
