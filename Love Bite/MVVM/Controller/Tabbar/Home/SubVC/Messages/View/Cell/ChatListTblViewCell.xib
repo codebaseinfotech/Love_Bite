@@ -25,7 +25,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dB3-ei-02C">
                                 <rect key="frame" x="0.0" y="7" width="60" height="60"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_profile_sdummy" translatesAutoresizingMaskIntoConstraints="NO" id="hG2-1b-g2r">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_profile_sdummy" translatesAutoresizingMaskIntoConstraints="NO" id="hG2-1b-g2r">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">

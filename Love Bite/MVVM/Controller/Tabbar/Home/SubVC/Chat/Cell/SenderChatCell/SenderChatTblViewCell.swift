@@ -15,7 +15,10 @@ class SenderChatTblViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        viewChat.roundCorners(corners: [.topLeft, .topRight, .bottomLeft], radius: 14)
+        viewChat.clipsToBounds = true
+        viewChat.layer.cornerRadius = 16
+        viewChat.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner, .layerMinXMaxYCorner]
+        
         
         // Initialization code
     }

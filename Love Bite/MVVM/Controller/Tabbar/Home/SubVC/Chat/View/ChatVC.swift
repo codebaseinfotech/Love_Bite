@@ -23,7 +23,7 @@ class ChatVC: UIViewController {
         tblViewChat.delegate = self
         tblViewChat.dataSource = self
 
-        viewBottomMain.addBorder(to: .top, color: .primary, thickness: 1)
+        addTopBorder(to: viewBottomMain, color: .primary, thickness: 1.0)
         // Do any additional setup after loading the view.
     }
 
@@ -31,7 +31,16 @@ class ChatVC: UIViewController {
         self.goBack()
     }
     
-  
+    func addTopBorder(to view: UIView, color: UIColor, thickness: CGFloat) {
+        // Remove existing border if already added (avoid duplicates on reloads)
+        view.layer.sublayers?.filter { $0.name == "topBorder" }.forEach { $0.removeFromSuperlayer() }
+        
+        let border = CALayer()
+        border.name = "topBorder"
+        border.backgroundColor = color.cgColor
+        border.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: thickness)
+        view.layer.addSublayer(border)
+    }
 
 }
 
@@ -59,7 +68,7 @@ extension ChatVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        return UITableView.automaticDimension
-        return 80
+        return UITableView.automaticDimension
+//        return 80
     }
 }

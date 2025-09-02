@@ -15,7 +15,9 @@ class ReceiverChatTblViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        viewReceiverChat.roundCorners(corners: [.topLeft, .topRight, .bottomRight], radius: 14)
+        viewReceiverChat.clipsToBounds = true
+        viewReceiverChat.layer.cornerRadius = 16
+        viewReceiverChat.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner, .layerMaxXMaxYCorner]
         // Initialization code
     }
 
