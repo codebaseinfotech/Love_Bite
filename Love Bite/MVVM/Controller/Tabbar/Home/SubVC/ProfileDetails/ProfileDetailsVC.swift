@@ -92,19 +92,51 @@ class ProfileDetailsVC: UIViewController {
     }
     @IBAction func tappedSubscribe(_ sender: Any) {
         let vc = SubscribePopupVC()
+        vc.delegateSub = self
         self.presentVC(vc, animated: false)
     }
     @IBAction func tappedFavourite(_ sender: Any) {
     }
     @IBAction func tappedChat(_ sender: Any) {
+        let vc = ChatVC()
+        self.push(vc)
     }
     @IBAction func tappedVideoCall(_ sender: Any) {
     }
     @IBAction func tappedMore(_ sender: Any) {
+        showPostOptions1()
     }
     
-  
+    @objc func showPostOptions1() {
+        let alert = UIAlertController(title: "User Options", message: nil, preferredStyle: .actionSheet)
+        
+        // Edit Post
+        alert.addAction(UIAlertAction(title: "Block User", style: .destructive, handler: { _ in
+            print("Block User tapped")
+            // 👉 Navigate to edit screen or perform edit logic here
+        }))
+        
+        // Delete Post
+        alert.addAction(UIAlertAction(title: "Report User", style: .destructive, handler: { _ in
+            print("Report User tapped")
+            // 👉 Show confirmation or delete logic here
+        }))
+        
+        // Cancel
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        
+        present(alert, animated: true, completion: nil)
+    }
 
+}
+
+// MARK: -
+extension ProfileDetailsVC: SubscribeDidTap {
+    func didTapOnChat() {
+        let vc = ChatVC()
+        self.push(vc)
+    }
+    
 }
 
 // MARK: - CV Delegate & DataSource
@@ -131,8 +163,32 @@ extension ProfileDetailsVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostListTVCell") as! PostListTVCell
         
+        cell.tappedMore = {
+            self.showPostOptions()
+        }
+        
         return cell
     }
     
+    @objc func showPostOptions() {
+        let alert = UIAlertController(title: "Post Options", message: nil, preferredStyle: .actionSheet)
+        
+        // Edit Post
+        alert.addAction(UIAlertAction(title: "Block Post", style: .destructive, handler: { _ in
+            print("Block Post tapped")
+            // 👉 Navigate to edit screen or perform edit logic here
+        }))
+        
+        // Delete Post
+        alert.addAction(UIAlertAction(title: "Report Post", style: .destructive, handler: { _ in
+            print("Report Post tapped")
+            // 👉 Show confirmation or delete logic here
+        }))
+        
+        // Cancel
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        
+        present(alert, animated: true, completion: nil)
+    }
     
 }

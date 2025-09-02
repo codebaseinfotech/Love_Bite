@@ -309,12 +309,23 @@
                         <constraint firstItem="xLE-gH-ukm" firstAttribute="top" secondItem="7uD-dG-tvu" secondAttribute="bottom" constant="20" id="zKb-St-1BV"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvI-rn-vDf">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="247"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="tappedDus:" destination="-1" eventType="touchUpInside" id="I6O-eR-uyQ"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="b5s-n1-O44" secondAttribute="bottom" id="5ut-Ur-vS6"/>
                 <constraint firstItem="b5s-n1-O44" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BqN-Ea-fXH"/>
+                <constraint firstAttribute="trailing" secondItem="LvI-rn-vDf" secondAttribute="trailing" id="a1G-d8-khN"/>
+                <constraint firstItem="b5s-n1-O44" firstAttribute="top" secondItem="LvI-rn-vDf" secondAttribute="bottom" id="ktL-0q-OuJ"/>
+                <constraint firstItem="LvI-rn-vDf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nMe-GW-czk"/>
+                <constraint firstItem="LvI-rn-vDf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rCs-ZR-Mez"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="b5s-n1-O44" secondAttribute="trailing" id="w0E-av-pEx"/>
             </constraints>
             <point key="canvasLocation" x="130.53435114503816" y="-32.394366197183103"/>

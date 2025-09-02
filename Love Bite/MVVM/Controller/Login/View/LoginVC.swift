@@ -61,22 +61,23 @@ class LoginVC: UIViewController {
     
     
     @IBAction func clickedLogin(_ sender: Any) {
-        guard let email = txtEmail.text, !email.isEmpty else {
-            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter email")
-            return
-        }
-        
-        guard email.isValidEmail else {
-            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter valid email")
-            return
-        }
-        
-        guard let passowrd = txtPassword.text, !passowrd.isEmpty else {
-            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter password")
-            return
-        }
-        
-        loginUser()
+//        guard let email = txtEmail.text, !email.isEmpty else {
+//            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter email")
+//            return
+//        }
+//        
+//        guard email.isValidEmail else {
+//            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter valid email")
+//            return
+//        }
+//        
+//        guard let passowrd = txtPassword.text, !passowrd.isEmpty else {
+//            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please enter password")
+//            return
+//        }
+//        
+//        loginUser()
+        AppDelegate.appDelegate.setUpHome()
     }
     
     @IBAction func clickedCreateAccount(_ sender: Any) {

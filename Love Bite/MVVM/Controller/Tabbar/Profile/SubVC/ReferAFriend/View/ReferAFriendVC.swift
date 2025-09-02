@@ -21,6 +21,9 @@ class ReferAFriendVC: UIViewController {
     }
     @IBAction func tappedShareCode(_ sender: Any) {
     }
+    @IBAction func tappedDis(_ sender: Any) {
+        self.dismiss(animated: false)
+    }
     
 
 }

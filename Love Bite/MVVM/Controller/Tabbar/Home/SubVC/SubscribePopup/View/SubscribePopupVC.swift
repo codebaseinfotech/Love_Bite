@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol SubscribeDidTap: AnyObject {
+    func didTapOnChat()
+}
+
 class SubscribePopupVC: UIViewController {
 
     @IBOutlet weak var imgPic: UIImageView!
@@ -26,11 +30,11 @@ class SubscribePopupVC: UIViewController {
     @IBOutlet weak var view1Token: UIView!
     @IBOutlet weak var view899Sub: UIView!
     
+    var delegateSub: SubscribeDidTap?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-
         // Do any additional setup after loading the view.
     }
 
@@ -54,6 +58,11 @@ class SubscribePopupVC: UIViewController {
         view1Token.borderColor = .clear
     }
     @IBAction func tappedStartChat(_ sender: Any) {
+        delegateSub?.didTapOnChat()
+        self.goDismiss(animated: false)
+    }
+    @IBAction func tappedDus(_ sender: Any) {
+        self.goDismiss(animated: false)
     }
     
     

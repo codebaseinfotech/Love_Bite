@@ -191,14 +191,25 @@ tokens as a reward.</string>
                         <constraint firstItem="3bF-Qw-JPh" firstAttribute="centerY" secondItem="a0d-iz-Yed" secondAttribute="centerY" id="yZl-Xn-HFe"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcs-2l-wez">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="162"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="tappedDis:" destination="-1" eventType="touchUpInside" id="fvY-Ra-sLs"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Vcs-2l-wez" secondAttribute="trailing" id="9nL-dM-mYd"/>
+                <constraint firstItem="gVb-1B-LI6" firstAttribute="top" secondItem="Vcs-2l-wez" secondAttribute="bottom" id="Cx4-c0-Myx"/>
                 <constraint firstItem="gVb-1B-LI6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="162" id="D5g-EZ-8J2"/>
                 <constraint firstItem="gVb-1B-LI6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="KeY-13-in8"/>
                 <constraint firstAttribute="trailing" secondItem="gVb-1B-LI6" secondAttribute="trailing" id="TMa-L4-UT1"/>
                 <constraint firstAttribute="bottom" secondItem="gVb-1B-LI6" secondAttribute="bottom" id="Zp8-Vy-5B8"/>
+                <constraint firstItem="Vcs-2l-wez" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aGC-YL-Qxv"/>
+                <constraint firstItem="Vcs-2l-wez" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="oGN-RB-Y5Z"/>
             </constraints>
             <point key="canvasLocation" x="130.53435114503816" y="-32.394366197183103"/>
         </view>
