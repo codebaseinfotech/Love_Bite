@@ -7,67 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A0E011F67713B5CABEB24D5C20E053 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */; };
-		0CBC261525FB8A693CF9FF73B1C99389 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */; };
-		29F1D9FADE401C87C762D05F2B8BB286 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */; };
-		560CEEB2B821881CB864D5418AC664BC /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */; };
+		02B5A8A52E6AB5B17F0749D642526A4F /* Pods-Love Bite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E468BCE8A8325EE10B0871F298E522BD /* Pods-Love Bite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03A0E011F67713B5CABEB24D5C20E053 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF33E06CF227C491AA2404F42976E76 /* DPDKeyboardListener.swift */; };
+		05F8BE2E6823A2EFFA582C18B7F60C6B /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDAC67D6A20F9B2BE902296A4556FA7A /* assets.bundle */; };
+		0CBC261525FB8A693CF9FF73B1C99389 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D182FFE8527C449E34C2B4EAC27436B3 /* DropDown.swift */; };
+		0F3C71D46590BA49905277A997EC6292 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 421B325B534BFD4343BA9B171A4A9A82 /* CallingCodes.plist */; };
+		29F1D9FADE401C87C762D05F2B8BB286 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912E005D99BD5E62FA351492C3F606A /* DPDUIView+Extension.swift */; };
+		4E330FEA63B7384DC6B41FB8D4D43D2F /* ADCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4EF1A05596F28D755E4EFC660DB40B /* ADCountryPicker.swift */; };
+		560CEEB2B821881CB864D5418AC664BC /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0095782160B2339FCEA02B471A9C2A /* DropDownCell.swift */; };
 		59F9D1B6BE203AF9CFF9177330776F9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		5D5B97FA9366714EAB37D1A8DB04A6E5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */; };
-		658562F3CE138D1BB9E413714C03FBE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		6A8CEAC3326863F09F8D79464BBA2C3D /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */; };
-		933093C5E43D7E9BC502A28B7D371924 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */; };
-		9FDE02B4BDF6E28E0CDF0622EA9559BC /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */; };
-		A2CACC98BA7C0BD0398A2A754EA02550 /* Pods-Love Bite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F821ADC9E8D0AC3EE5353EDD169C9D /* Pods-Love Bite-dummy.m */; };
-		ADA6CC7EE505342EA63EC876FF0EEDB0 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF45713B1E9606FF83D284163B71E6A5 /* Pods-Love Bite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E468BCE8A8325EE10B0871F298E522BD /* Pods-Love Bite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5B97FA9366714EAB37D1A8DB04A6E5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71AD5431FAAD56CF4FC6F7C671A46F0 /* DPDConstants.swift */; };
+		682B207B296C6DF7CF5BAC7614FDD1D1 /* ADCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045293D40341914F216E596DB6EB7CF /* ADCountry.swift */; };
+		6A8CEAC3326863F09F8D79464BBA2C3D /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3101099F04996DA5A4EBB57F88FC5B /* DropDown+Appearance.swift */; };
+		6ABF66D4B8BC14C3719367B16E8B2D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		711FB807B6FC269E880D656E2E82B7E7 /* ADCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD3AD64BDEF6C8C8D24EA8B93F88E2E /* ADCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74EEFFD02B6FE230A26722E5BF1A41C2 /* Pods-Love Bite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F821ADC9E8D0AC3EE5353EDD169C9D /* Pods-Love Bite-dummy.m */; };
+		933093C5E43D7E9BC502A28B7D371924 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEC629FCE65069363C0E48EA7F67E88 /* DropDownCell.xib */; };
+		9FDE02B4BDF6E28E0CDF0622EA9559BC /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B12BA0C65BB880CF2E49740601C676 /* DropDown-dummy.m */; };
+		ADA6CC7EE505342EA63EC876FF0EEDB0 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFD51D43739EE584CF80546A65D31AF /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC797055257CEFA04F939E66B3392D9D /* ADCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DDA732CD83D6ED8E4BD8A7D7C81117 /* ADCountryPicker-dummy.m */; };
+		E2D37E7EE96AADB374E71D91706D5A76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D82358DAE489907938961B6089E9352D /* PBXContainerItemProxy */ = {
+		3552AA428E1DD25F4F82F1236DE78555 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
 			remoteInfo = DropDown;
 		};
+		3E45F60BB6C574D47A6EF56FCF773DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74FF4132AB245F81B9DC9A13E0E5BB7A;
+			remoteInfo = ADCountryPicker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03DB0E5F775F781E8421573B01740F72 /* Pods-Love Bite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Love Bite.modulemap"; sourceTree = "<group>"; };
 		0ADED78557D19F528EFDA2425D5B8FEB /* Pods-Love Bite-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Love Bite-frameworks.sh"; sourceTree = "<group>"; };
+		0BFD51D43739EE584CF80546A65D31AF /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
 		17F821ADC9E8D0AC3EE5353EDD169C9D /* Pods-Love Bite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Love Bite-dummy.m"; sourceTree = "<group>"; };
 		1CEF1CB7FB75F1255C1C021655FC3F35 /* Pods-Love Bite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Love Bite.debug.xcconfig"; sourceTree = "<group>"; };
 		21EED96A3E822BD5E20F1276D001C13E /* Pods-Love Bite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Love Bite-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
-		2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
-		3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		2F29B8A9993713DEE0694A9DC659D8C9 /* ADCountryPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADCountryPicker.debug.xcconfig; sourceTree = "<group>"; };
+		2F9C39A5B76083A83AD3525B5DF26752 /* ADCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADCountryPicker-prefix.pch"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
-		730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
-		8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		421B325B534BFD4343BA9B171A4A9A82 /* CallingCodes.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = CallingCodes.plist; path = Source/CallingCodes.plist; sourceTree = "<group>"; };
+		485915C2DF41B09296F740FCB8BC8013 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		4CD3AD64BDEF6C8C8D24EA8B93F88E2E /* ADCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADCountryPicker-umbrella.h"; sourceTree = "<group>"; };
+		5C3101099F04996DA5A4EBB57F88FC5B /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		5F53D65213DE77DF7A3B0C3AC83F3545 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		6E4EF1A05596F28D755E4EFC660DB40B /* ADCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADCountryPicker.swift; path = Source/ADCountryPicker.swift; sourceTree = "<group>"; };
+		8514B9C8E672137F8FF636F2CFFF5B35 /* ADCountryPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADCountryPicker.release.xcconfig; sourceTree = "<group>"; };
+		88278C05493FFF4ABE3F84661751CF90 /* ADCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ADCountryPicker.modulemap; sourceTree = "<group>"; };
+		8F0095782160B2339FCEA02B471A9C2A /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
 		9023D0DE4D31D83676A6723E3005F0BD /* Pods-Love Bite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Love Bite.release.xcconfig"; sourceTree = "<group>"; };
-		93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		90ED4F17FAF66E83BB2C4EC9283F4A6E /* ADCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ADCountryPicker-Info.plist"; sourceTree = "<group>"; };
 		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
-		AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		A045293D40341914F216E596DB6EB7CF /* ADCountry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADCountry.swift; path = Source/ADCountry.swift; sourceTree = "<group>"; };
+		A5EA01C085E3ED7162AC98AA462BEAA7 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		A912E005D99BD5E62FA351492C3F606A /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		B9B12BA0C65BB880CF2E49740601C676 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		BCF33E06CF227C491AA2404F42976E76 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
 		BF6CFF56D5A81BE9ED0CC15119440439 /* Pods_Love_Bite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love_Bite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC67D6A20F9B2BE902296A4556FA7A /* assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = assets.bundle; path = Source/assets.bundle; sourceTree = "<group>"; };
+		D182FFE8527C449E34C2B4EAC27436B3 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 		D338FD0D0E04F071F93D17E2C2CDCAE9 /* Pods-Love Bite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Love Bite-Info.plist"; sourceTree = "<group>"; };
-		DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		D58B27A3B069CC78BCB6E808E96E4902 /* ADCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEC629FCE65069363C0E48EA7F67E88 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
 		DD2359700D62AE0646E0B1B3884075FB /* Pods-Love Bite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Love Bite-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E468BCE8A8325EE10B0871F298E522BD /* Pods-Love Bite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Love Bite-umbrella.h"; sourceTree = "<group>"; };
-		E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
-		EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
-		F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		E71AD5431FAAD56CF4FC6F7C671A46F0 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		ECC65C4FF9B36F05558A66A6A41DDC65 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		F3DDA732CD83D6ED8E4BD8A7D7C81117 /* ADCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADCountryPicker-dummy.m"; sourceTree = "<group>"; };
+		F6B90513FFCDCA1A6D91CB159B715AF6 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A61E7EF3039A48E4477DCD5F39F8E1E /* Frameworks */ = {
+		117B094F72229CAF2F7868F90710E8D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				658562F3CE138D1BB9E413714C03FBE7 /* Foundation.framework in Frameworks */,
+				6ABF66D4B8BC14C3719367B16E8B2D19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492BA595E3F40A1DBA6B896637CD1E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D37E7EE96AADB374E71D91706D5A76 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,29 +116,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D114B328A63C934E528549C2DCFE8D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */,
-				AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */,
-				2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */,
-				730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */,
-				F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */,
-				E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */,
-				9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DropDown";
-			sourceTree = "<group>";
-		};
-		057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1340602042F82FB2F98974EB1B0C2387 /* DropDown */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		06E4E14E38BD1D2DF3DC74382C1CB84D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,19 +124,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1340602042F82FB2F98974EB1B0C2387 /* DropDown */ = {
+		37EBEDBCBADC0D957CCC7A583819A810 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */,
-				8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */,
-				451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */,
-				2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */,
-				A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */,
-				93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */,
-				C59647B6F3C67ED72D999C113D892AF0 /* Resources */,
-				03D114B328A63C934E528549C2DCFE8D /* Support Files */,
+				CDAC67D6A20F9B2BE902296A4556FA7A /* assets.bundle */,
+				421B325B534BFD4343BA9B171A4A9A82 /* CallingCodes.plist */,
 			);
-			path = DropDown;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50C2FF19E87D7AA467DA0B94B9BD0436 /* ADCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A045293D40341914F216E596DB6EB7CF /* ADCountry.swift */,
+				6E4EF1A05596F28D755E4EFC660DB40B /* ADCountryPicker.swift */,
+				37EBEDBCBADC0D957CCC7A583819A810 /* Resources */,
+				E763EB4DDBDC2020A48DC15487EB587B /* Support Files */,
+			);
+			path = ADCountryPicker;
 			sourceTree = "<group>";
 		};
 		6712753B3F2E96DBCDCC38AB948F78B6 /* Pods-Love Bite */ = {
@@ -145,21 +161,36 @@
 			path = "Target Support Files/Pods-Love Bite";
 			sourceTree = "<group>";
 		};
-		67C5566CD22D066B5C24A20D9799322A /* Products */ = {
+		88A4E2281A1291ADBF9FFDD03D4A2CDC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
-				BF6CFF56D5A81BE9ED0CC15119440439 /* Pods_Love_Bite.framework */,
+				485915C2DF41B09296F740FCB8BC8013 /* DropDown.modulemap */,
+				B9B12BA0C65BB880CF2E49740601C676 /* DropDown-dummy.m */,
+				F6B90513FFCDCA1A6D91CB159B715AF6 /* DropDown-Info.plist */,
+				A5EA01C085E3ED7162AC98AA462BEAA7 /* DropDown-prefix.pch */,
+				0BFD51D43739EE584CF80546A65D31AF /* DropDown-umbrella.h */,
+				5F53D65213DE77DF7A3B0C3AC83F3545 /* DropDown.debug.xcconfig */,
+				ECC65C4FF9B36F05558A66A6A41DDC65 /* DropDown.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
 			sourceTree = "<group>";
 		};
-		C59647B6F3C67ED72D999C113D892AF0 /* Resources */ = {
+		9BFFA288D0B73F7D53E3FF7A3EAF1F4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */,
+				DCEC629FCE65069363C0E48EA7F67E88 /* DropDownCell.xib */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		C94A7B6ACF3801951FEAD1FE4255E82E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50C2FF19E87D7AA467DA0B94B9BD0436 /* ADCountryPicker */,
+				F1F0C1D77C4B1B6BCB2A3FDEF635B1F0 /* DropDown */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -167,8 +198,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */,
-				67C5566CD22D066B5C24A20D9799322A /* Products */,
+				C94A7B6ACF3801951FEAD1FE4255E82E /* Pods */,
+				DCDB4E73FBDB1222B45165D7219ACF5A /* Products */,
 				06E4E14E38BD1D2DF3DC74382C1CB84D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -181,12 +212,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DCDB4E73FBDB1222B45165D7219ACF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58B27A3B069CC78BCB6E808E96E4902 /* ADCountryPicker.framework */,
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				BF6CFF56D5A81BE9ED0CC15119440439 /* Pods_Love_Bite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E763EB4DDBDC2020A48DC15487EB587B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88278C05493FFF4ABE3F84661751CF90 /* ADCountryPicker.modulemap */,
+				F3DDA732CD83D6ED8E4BD8A7D7C81117 /* ADCountryPicker-dummy.m */,
+				90ED4F17FAF66E83BB2C4EC9283F4A6E /* ADCountryPicker-Info.plist */,
+				2F9C39A5B76083A83AD3525B5DF26752 /* ADCountryPicker-prefix.pch */,
+				4CD3AD64BDEF6C8C8D24EA8B93F88E2E /* ADCountryPicker-umbrella.h */,
+				2F29B8A9993713DEE0694A9DC659D8C9 /* ADCountryPicker.debug.xcconfig */,
+				8514B9C8E672137F8FF636F2CFFF5B35 /* ADCountryPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ADCountryPicker";
+			sourceTree = "<group>";
+		};
+		F1F0C1D77C4B1B6BCB2A3FDEF635B1F0 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				E71AD5431FAAD56CF4FC6F7C671A46F0 /* DPDConstants.swift */,
+				BCF33E06CF227C491AA2404F42976E76 /* DPDKeyboardListener.swift */,
+				A912E005D99BD5E62FA351492C3F606A /* DPDUIView+Extension.swift */,
+				D182FFE8527C449E34C2B4EAC27436B3 /* DropDown.swift */,
+				5C3101099F04996DA5A4EBB57F88FC5B /* DropDown+Appearance.swift */,
+				8F0095782160B2339FCEA02B471A9C2A /* DropDownCell.swift */,
+				9BFFA288D0B73F7D53E3FF7A3EAF1F4B /* Resources */,
+				88A4E2281A1291ADBF9FFDD03D4A2CDC /* Support Files */,
+			);
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,11 +271,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE55D7C15DCE0473DFDBC2B5AAE20F40 /* Headers */ = {
+		A32D901EBF3FA11D139A91F4C556B638 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF45713B1E9606FF83D284163B71E6A5 /* Pods-Love Bite-umbrella.h in Headers */,
+				711FB807B6FC269E880D656E2E82B7E7 /* ADCountryPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37FBC16B6A96B0C0721ECFEFBE43043 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B5A8A52E6AB5B17F0749D642526A4F /* Pods-Love Bite-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,21 +292,40 @@
 /* Begin PBXNativeTarget section */
 		41B3638CB53577977571551CF862B190 /* Pods-Love Bite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07318D8552A5FD1019A006445D3A417A /* Build configuration list for PBXNativeTarget "Pods-Love Bite" */;
+			buildConfigurationList = 911569070772C8DDCE45870CFC2F5DBA /* Build configuration list for PBXNativeTarget "Pods-Love Bite" */;
 			buildPhases = (
-				FE55D7C15DCE0473DFDBC2B5AAE20F40 /* Headers */,
-				45B16CEEACA5E0A39F2EB38070AFA8AA /* Sources */,
-				7A61E7EF3039A48E4477DCD5F39F8E1E /* Frameworks */,
-				C6BCC8AA091C5B002E783E07690A8748 /* Resources */,
+				F37FBC16B6A96B0C0721ECFEFBE43043 /* Headers */,
+				7FF233F16B67EC4ACE2A40ED55138506 /* Sources */,
+				117B094F72229CAF2F7868F90710E8D3 /* Frameworks */,
+				834AF4D04BFA05C68E7EB01BC35B3D53 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				703BA249A2CB541C3B9B1EA526AD1B66 /* PBXTargetDependency */,
+				4523A5FC7BA67772642D703EA9146BDD /* PBXTargetDependency */,
+				4A65034B6F1149045B36667CD12EB123 /* PBXTargetDependency */,
 			);
 			name = "Pods-Love Bite";
 			productName = Pods_Love_Bite;
 			productReference = BF6CFF56D5A81BE9ED0CC15119440439 /* Pods_Love_Bite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74FF4132AB245F81B9DC9A13E0E5BB7A /* ADCountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B5A7D83134D5853D348A1E07EFBD6F /* Build configuration list for PBXNativeTarget "ADCountryPicker" */;
+			buildPhases = (
+				A32D901EBF3FA11D139A91F4C556B638 /* Headers */,
+				5CFA9B374E7F00B18EBA0ED395C8892A /* Sources */,
+				492BA595E3F40A1DBA6B896637CD1E79 /* Frameworks */,
+				DBCCC79A90332C95B7637BFBE7B7C0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADCountryPicker;
+			productName = ADCountryPicker;
+			productReference = D58B27A3B069CC78BCB6E808E96E4902 /* ADCountryPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
@@ -266,10 +364,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 67C5566CD22D066B5C24A20D9799322A /* Products */;
+			productRefGroup = DCDB4E73FBDB1222B45165D7219ACF5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				74FF4132AB245F81B9DC9A13E0E5BB7A /* ADCountryPicker */,
 				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
 				41B3638CB53577977571551CF862B190 /* Pods-Love Bite */,
 			);
@@ -285,10 +384,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6BCC8AA091C5B002E783E07690A8748 /* Resources */ = {
+		834AF4D04BFA05C68E7EB01BC35B3D53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCCC79A90332C95B7637BFBE7B7C0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F8BE2E6823A2EFFA582C18B7F60C6B /* assets.bundle in Resources */,
+				0F3C71D46590BA49905277A997EC6292 /* CallingCodes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,29 +417,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45B16CEEACA5E0A39F2EB38070AFA8AA /* Sources */ = {
+		5CFA9B374E7F00B18EBA0ED395C8892A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2CACC98BA7C0BD0398A2A754EA02550 /* Pods-Love Bite-dummy.m in Sources */,
+				682B207B296C6DF7CF5BAC7614FDD1D1 /* ADCountry.swift in Sources */,
+				4E330FEA63B7384DC6B41FB8D4D43D2F /* ADCountryPicker.swift in Sources */,
+				DC797055257CEFA04F939E66B3392D9D /* ADCountryPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF233F16B67EC4ACE2A40ED55138506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EEFFD02B6FE230A26722E5BF1A41C2 /* Pods-Love Bite-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		703BA249A2CB541C3B9B1EA526AD1B66 /* PBXTargetDependency */ = {
+		4523A5FC7BA67772642D703EA9146BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ADCountryPicker;
+			target = 74FF4132AB245F81B9DC9A13E0E5BB7A /* ADCountryPicker */;
+			targetProxy = 3E45F60BB6C574D47A6EF56FCF773DC9 /* PBXContainerItemProxy */;
+		};
+		4A65034B6F1149045B36667CD12EB123 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DropDown;
 			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
-			targetProxy = D82358DAE489907938961B6089E9352D /* PBXContainerItemProxy */;
+			targetProxy = 3552AA428E1DD25F4F82F1236DE78555 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		451A6E6078876AA7C78FBA7B8153420E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F29B8A9993713DEE0694A9DC659D8C9 /* ADCountryPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ADCountryPicker/ADCountryPicker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ADCountryPicker/ADCountryPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ADCountryPicker/ADCountryPicker.modulemap";
+				PRODUCT_MODULE_NAME = ADCountryPicker;
+				PRODUCT_NAME = ADCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4AD0BA964B78A5B7AE7983E4FB6FB95D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */;
+			baseConfigurationReference = 5F53D65213DE77DF7A3B0C3AC83F3545 /* DropDown.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -369,7 +531,7 @@
 		};
 		4FDF3181F1DC926BDED9BF16BCC6E845 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */;
+			baseConfigurationReference = ECC65C4FF9B36F05558A66A6A41DDC65 /* DropDown.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -406,7 +568,7 @@
 			};
 			name = Release;
 		};
-		877C91F1875E5A604F3674DFB790A28D /* Release */ = {
+		7AE0274E944F54DC890E215D1342B225 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9023D0DE4D31D83676A6723E3005F0BD /* Pods-Love Bite.release.xcconfig */;
 			buildSettings = {
@@ -424,7 +586,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-Love Bite/Pods-Love Bite-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +608,7 @@
 			};
 			name = Release;
 		};
-		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -499,7 +661,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -512,7 +674,7 @@
 			};
 			name = Debug;
 		};
-		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -562,7 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -574,7 +736,46 @@
 			};
 			name = Release;
 		};
-		E130A02CF1EFF58F4427BF7C7A9A1780 /* Debug */ = {
+		C7E96272529BAF29591DD517588D51EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8514B9C8E672137F8FF636F2CFFF5B35 /* ADCountryPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ADCountryPicker/ADCountryPicker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ADCountryPicker/ADCountryPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ADCountryPicker/ADCountryPicker.modulemap";
+				PRODUCT_MODULE_NAME = ADCountryPicker;
+				PRODUCT_NAME = ADCountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECBB07C8CE05333708635E204EAB9965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CEF1CB7FB75F1255C1C021655FC3F35 /* Pods-Love Bite.debug.xcconfig */;
 			buildSettings = {
@@ -592,7 +793,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-Love Bite/Pods-Love Bite-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,20 +817,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07318D8552A5FD1019A006445D3A417A /* Build configuration list for PBXNativeTarget "Pods-Love Bite" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E130A02CF1EFF58F4427BF7C7A9A1780 /* Debug */,
-				877C91F1875E5A604F3674DFB790A28D /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		74B5A7D83134D5853D348A1E07EFBD6F /* Build configuration list for PBXNativeTarget "ADCountryPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
-				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+				451A6E6078876AA7C78FBA7B8153420E /* Debug */,
+				C7E96272529BAF29591DD517588D51EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911569070772C8DDCE45870CFC2F5DBA /* Build configuration list for PBXNativeTarget "Pods-Love Bite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBB07C8CE05333708635E204EAB9965 /* Debug */,
+				7AE0274E944F54DC890E215D1342B225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -25,13 +25,15 @@ class UploadPhotoVC: UIViewController {
     }
     
     @IBAction func clickedNext(_ sender: Any) {
-        guard let imgPic = imgProfile.image else {
-            print("❌ No profile image selected")
-            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please select a profile picture")
-            return
-        }
-        
-        uploadProfileImage(imgPic)
+//        guard let imgPic = imgProfile.image else {
+//            print("❌ No profile image selected")
+//            AppDelegate.appDelegate.showAlertFromAppDelegate(title: "Error", message: "Please select a profile picture")
+//            return
+//        }
+//        
+//        uploadProfileImage(imgPic)
+        let vc = TelluswhoyouareVC()
+        self.push(vc, animated: false)
         
     }
     

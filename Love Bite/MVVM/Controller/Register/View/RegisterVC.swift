@@ -108,7 +108,10 @@ class RegisterVC: UIViewController {
             return
         }
         
-        registerUser(email: email, password: password, username: userName)
+//        registerUser(email: email, password: password, username: userName)
+        
+        let vc = UploadPhotoVC()
+        self.push(vc)
     }
     
     // MARK: - Register User

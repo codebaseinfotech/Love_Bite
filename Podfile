@@ -8,5 +8,6 @@ target 'Love Bite' do
   # Pods for Love Bite
 
 pod 'DropDown'
+pod 'ADCountryPicker'
 
 end

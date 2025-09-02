@@ -49,7 +49,7 @@ class MenuVC: UIViewController {
         let alert = UIAlertController(title: "Delete Account", message: "Are you sure you want to delete account?", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         alert.addAction(UIAlertAction(title: "Delete", style: .destructive, handler: { _ in
-            self.logoutUser()
+            AppDelegate.appDelegate.setUpLogin()
         }))
         self.present(alert, animated: true, completion: nil)
     }
@@ -62,7 +62,7 @@ class MenuVC: UIViewController {
         let alert = UIAlertController(title: "Logout", message: "Are you sure you want to logout?", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         alert.addAction(UIAlertAction(title: "Logout", style: .destructive, handler: { _ in
-            self.logoutUser()
+            AppDelegate.appDelegate.setUpLogin()
         }))
         self.present(alert, animated: true, completion: nil)
     }

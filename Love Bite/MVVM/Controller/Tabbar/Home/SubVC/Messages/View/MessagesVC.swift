@@ -24,8 +24,6 @@ class MessagesVC: UIViewController {
     }
     @IBOutlet weak var viewMenu: UIView!
     
-    
-    
     private var menuView: UIView?
     private var overlayView: UIControl?
     var selectedOption: String = "Private Messages"

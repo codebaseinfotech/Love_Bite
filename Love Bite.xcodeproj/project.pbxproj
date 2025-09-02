@@ -1189,8 +1189,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 887E234B2E5C44C70016E082 /* Build configuration list for PBXNativeTarget "Love Bite" */;
 			buildPhases = (
-				F32ACCF90CB22FE08CBDE67E /* Build Target Dependencies */,
 				0DFC4C04CB4BE2817DD3ECCB /* [CP] Check Pods Manifest.lock */,
+				F32ACCF90CB22FE08CBDE67E /* Build Target Dependencies */,
 				887E23342E5C44C50016E082 /* Sources */,
 				887E23352E5C44C50016E082 /* Frameworks */,
 				887E23362E5C44C50016E082 /* Resources */,
@@ -1524,7 +1524,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1562,7 +1562,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

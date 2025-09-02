@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TelluswhoyouareVC" customModule="Love_Bite" customModuleProvider="target">
             <connections>
+                <outlet property="lblCountry" destination="pHP-nI-ijo" id="x2N-xZ-Ffc"/>
                 <outlet property="lblTitle" destination="afo-bt-jqc" id="YD4-W3-jSP"/>
                 <outlet property="progressView" destination="4Qq-1M-iGL" id="ScR-JP-hj5"/>
                 <outlet property="titleHeightConst" destination="zZQ-as-oHO" id="pvH-7n-UML"/>
@@ -324,8 +325,8 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rkj-tX-tEy">
                                     <rect key="frame" x="16" y="590.33333333333337" width="361" height="48"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHP-nI-ijo">
-                                            <rect key="frame" x="14" y="15.666666666666629" width="36" height="17"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHP-nI-ijo">
+                                            <rect key="frame" x="14" y="15.666666666666629" width="32.333333333333336" height="17"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                             <color key="textColor" name="text_dark_color"/>
                                             <nil key="highlightedColor"/>
@@ -340,6 +341,9 @@
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISI-hi-S2s">
                                             <rect key="frame" x="0.0" y="0.0" width="361" height="48"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <connections>
+                                                <action selector="tappedCoutry:" destination="-1" eventType="touchUpInside" id="txT-a5-YiL"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" name="view_bg_color"/>
