@@ -46,6 +46,10 @@ class ChatVC: UIViewController {
 
 extension ChatVC: UITableViewDelegate, UITableViewDataSource {
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return messages.count
     }
@@ -53,16 +57,13 @@ extension ChatVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if indexPath.row % 2 == 0 {
-            // Even rows → Sender
-            let cell = tableView.dequeueReusableCell(withIdentifier: "SenderChatTblViewCell", for: indexPath) as! SenderChatTblViewCell
-            // configure sender cell (example)
-            // cell.lblMessage.text = "Message \(indexPath.row)"
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SenderChatTblViewCell") as! SenderChatTblViewCell
+                
             return cell
         } else {
             // Odd rows → Receiver
-            let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiverChatTblViewCell", for: indexPath) as! ReceiverChatTblViewCell
-            // configure receiver cell (example)
-            // cell.lblMessage.text = "Message \(indexPath.row)"
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiverChatTblViewCell") as! ReceiverChatTblViewCell
+            
             return cell
         }
     }
@@ -71,4 +72,22 @@ extension ChatVC: UITableViewDelegate, UITableViewDataSource {
         return UITableView.automaticDimension
 //        return 80
     }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 22
+    }
+    
+    // MARK: - UITableView Header
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = Bundle.main.loadNibNamed("ChatHeader", owner: nil, options: nil)?.first as? ChatHeader
+        
+        headerView?.lblTime
+            .text = "Today"
+        
+        return headerView
+    }
+    
+//    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+//        return 0.5
+//    }
 }

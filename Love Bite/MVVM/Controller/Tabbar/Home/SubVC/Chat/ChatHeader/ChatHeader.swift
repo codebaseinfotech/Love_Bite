@@ -7,15 +7,7 @@
 
 import UIKit
 
-class ChatHeader: UIViewController {
-
+class ChatHeader: UIView {
+        
     @IBOutlet weak var lblTime: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-
 }
